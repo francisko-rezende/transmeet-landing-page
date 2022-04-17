@@ -5,9 +5,11 @@ import Header from '.'
 
 describe('<Header />', () => {
   test('should render the header', () => {
-    renderWithTheme(<Header />)
+    const { container } = renderWithTheme(<Header />)
 
     expect(screen.getByRole('banner')).toBeInTheDocument()
     expect(screen.getByRole('img', { name: /transmeet/i })).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the header 1`] = `
+.c9 {
+  padding: 1.4rem 4.4rem;
+  border-radius: 24px;
+  background-color: #BB4981;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.c9:hover {
+  background-color: #8B426E;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+.c8 {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.c8:hover {
+  font-weight: 700;
+}
+
+.c8:hover::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -1rem;
+  height: 0.5rem;
+  background: linear-gradient( 269.71deg, rgba(255,255,255,0) 0.01%, #f7c2d2 19.66%, #bb4981 49%, #185aa1 74.55%, #1f478b 100% );
+  -webkit-animation: hoverAnimation 0.3s forwards;
+  animation: hoverAnimation 0.3s forwards;
+}
+
+.c1 {
+  max-width: 117rem;
+  margin: 0 auto;
+}
+
+.c3 {
+  max-width: 40rem;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+}
+
+.c5 {
+  width: 10rem;
+  text-align: center;
+}
+
+.c6 {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.c6:hover {
+  font-weight: 700;
+}
+
+.c6:hover::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -1rem;
+  height: 0.5rem;
+  background: linear-gradient( 269.71deg, rgba(255,255,255,0) 0.01%, #f7c2d2 19.66%, #bb4981 49%, #185aa1 74.55%, #1f478b 100% );
+  -webkit-animation: hoverAnimation 0.3s forwards;
+  animation: hoverAnimation 0.3s forwards;
+}
+
+.c0 {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: #152536;
+}
+
+.c2 {
+  padding: 4.1rem 0 3.4rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <header
+      class="c2"
+    >
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27200%27%20height=%2745%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="transmeet"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+      <nav
+        class="c3"
+      >
+        <ul
+          class="c4"
+        >
+          <li
+            class="c5"
+          >
+            <a
+              class="c6"
+              href="#"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="c5"
+          >
+            <a
+              class="c6"
+              href="#"
+            >
+              Aplicativo
+            </a>
+          </li>
+          <li
+            class="c5"
+          >
+            <a
+              class="c6"
+              href="#"
+            >
+              Sobre
+            </a>
+          </li>
+          <li
+            class="c5"
+          >
+            <a
+              class="c6"
+              href="#"
+            >
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="c7"
+      >
+        <div>
+          <a
+            class="c8"
+            href="#"
+          >
+            Entre
+          </a>
+        </div>
+        <a
+          class="c9"
+        >
+          Cadastrar
+        </a>
+      </div>
+    </header>
+  </div>
+</div>
+`
