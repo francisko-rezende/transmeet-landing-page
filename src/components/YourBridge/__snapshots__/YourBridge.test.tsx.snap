@@ -37,6 +37,7 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   -webkit-transform: translateX(8%) translateY(-29%);
   -ms-transform: translateX(8%) translateY(-29%);
   transform: translateX(8%) translateY(-29%);
+  pointer-events: none;
 }
 
 .c6 {

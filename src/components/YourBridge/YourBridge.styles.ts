@@ -36,6 +36,7 @@ export const Img = styled.img`
   max-width: 100%;
   max-height: 100%; */
   transform: translateX(8%) translateY(-29%);
+  pointer-events: none;
 `
 
 export const AppStoreButtonsWrapper = styled.div`
