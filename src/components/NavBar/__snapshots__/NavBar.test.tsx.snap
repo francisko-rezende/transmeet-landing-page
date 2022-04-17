@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> should render the heading 1`] = `
+.c0 {
+  max-width: 40rem;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+}
+
+.c2 {
+  width: 10rem;
+  text-align: center;
+}
+
+.c3 {
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.c3:hover {
+  font-weight: 700;
+}
+
+.c3:hover::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -1rem;
+  height: 0.5rem;
+  background: linear-gradient( 269.71deg, rgba(255,255,255,0) 0.01%, #f7c2d2 19.66%, #bb4981 49%, #185aa1 74.55%, #1f478b 100% );
+  -webkit-animation: hoverAnimation 0.3s forwards;
+  animation: hoverAnimation 0.3s forwards;
+}
+
+<nav
+  class="c0"
+>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="#"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="#"
+      >
+        Aplicativo
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="#"
+      >
+        Sobre
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="#"
+      >
+        Contato
+      </a>
+    </li>
+  </ul>
+</nav>
+`
