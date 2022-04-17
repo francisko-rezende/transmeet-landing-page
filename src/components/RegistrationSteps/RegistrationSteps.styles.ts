@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const Section = styled.section`
-  margin-top: 175px;
+  /* margin-top: 175px; */
 `
 
 export const Title = styled.h2`
