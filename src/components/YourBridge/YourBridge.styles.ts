@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components'
 
+// import pic01 from '../../../public/images/pic-01.webp'
+
 export const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -26,6 +28,19 @@ export const Paragraph = styled.p`
 
 export const ImgWrapper = styled.div`
   position: relative;
+
+  /* &::after {
+    content: '';
+    background-image: url('/images/pic-01.webp');
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    width: 915px;
+    height: 915px;
+    left: 0;
+    top: 0px;
+    transform: translate(8%, -30%);
+  } */
   /* position: absolute;
   top: 0;
   left: 50px; */

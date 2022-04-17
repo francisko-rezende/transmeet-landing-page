@@ -26,6 +26,14 @@ const YourBridge = () => {
             height={915}
             alt="Um estudante sorrindo"
           />
+          {/* <Image
+            layout="fixed"
+            objectFit="cover"
+            src="/images/pic-01.webp"
+            width={915}
+            height={915}
+            alt="Um estudante sorrindo"
+          /> */}
         </S.ImgWrapper>
         <S.AppStoreButtonsWrapper>
           <Image
