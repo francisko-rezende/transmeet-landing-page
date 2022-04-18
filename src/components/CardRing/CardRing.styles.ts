@@ -45,5 +45,6 @@ export const StepNumber = styled.h3`
 
   ${({ theme }) => css`
     color: ${theme.colors.primaryColor.primary};
+    font-weight: ${theme.font.weight.extraBold};
   `}
 `
