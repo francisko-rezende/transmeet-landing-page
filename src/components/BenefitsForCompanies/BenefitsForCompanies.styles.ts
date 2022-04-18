@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.section`
   margin-top: 190px;
-  padding-left: ${({ theme }) => theme.grid.gutter};
   display: grid;
   position: relative;
   grid-template-columns: repeat(2, 1fr);
@@ -15,6 +14,7 @@ export const ImgWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   grid-column: 2;
+  padding-left: ${({ theme }) => theme.grid.gutter};
 `
 
 export const SecondaryText = styled.span`

@@ -14,18 +14,22 @@ exports[
   grid-template-columns: repeat(2,1fr);
 }
 
+.c3 {
+  padding-left: 3rem;
+}
+
 .c2 {
   -webkit-transform: translate(-10%,-20%);
   -ms-transform: translate(-10%,-20%);
   transform: translate(-10%,-20%);
 }
 
-.c3 {
+.c4 {
   color: #152536;
   font-size: 5.2rem;
 }
 
-.c4 {
+.c5 {
   line-height: 1.5;
   margin-top: 2.4rem;
   color: #68717A;
@@ -33,7 +37,7 @@ exports[
   font-size: 2.1rem;
 }
 
-.c5 {
+.c6 {
   margin-top: 4rem;
   display: block;
   color: #BB4981;
@@ -41,7 +45,7 @@ exports[
   font-size: 1.6rem;
 }
 
-.c6 {
+.c7 {
   font-weight: 700;
   color: #152536;
 }
@@ -79,26 +83,26 @@ exports[
       </span>
     </div>
     <div
-      class=""
+      class="c3"
     >
       <h2
-        class="c3"
+        class="c4"
       >
         Combine com quem faz a diferença!
       </h2>
       <p
-        class="c4"
+        class="c5"
       >
         Através da nossa plataforma é possível encontrar empresas que estão dispostas a patrocinar os estudos da população trans, travesti e não binária em diversas áreas do conhecimento.
       </p>
       <p>
         <span
-          class="c5"
+          class="c6"
         >
           Nada de letrinha pequena...
         </span>
         <span
-          class="c6"
+          class="c7"
         >
           Escolheu, combinou, estudou!
         </span>

@@ -5,7 +5,9 @@ export const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 `
-export const TextWrapper = styled.div``
+export const TextWrapper = styled.div`
+  padding-left: ${({ theme }) => theme.grid.gutter};
+`
 
 export const ImgWrapper = styled.div`
   transform: translate(-10%, -20%);
