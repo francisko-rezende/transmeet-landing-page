@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const Bg = styled.div`
   background-color: ${({ theme }) => theme.colors.neutralColors.grayLighter};
   padding-top: 54px;
-  padding-bottom: 59px;
+  padding-bottom: 54px;
   margin-top: 210px;
 `
 
