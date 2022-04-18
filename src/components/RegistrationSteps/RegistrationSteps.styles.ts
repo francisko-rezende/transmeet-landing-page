@@ -23,11 +23,13 @@ export const Title = styled.h2`
 
 export const StepList = styled.ol`
   /* display: flex; */
-  overflow-x: auto;
+  /* overflow-x: auto; */
+  overflow-x: visible;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin: 54px auto;
+  /* padding: 0 30px; */
   padding-bottom: 40px;
   /* width: fit-content; */
   /* min-width: 1238px; */
