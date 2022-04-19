@@ -1,6 +1,7 @@
 import BenefitsForCompanies from 'components/BenefitsForCompanies'
 import DataOnTransEducation from 'components/DataOnTransEducation'
 import DownloadNow from 'components/DownloadNow'
+import Footer from 'components/Footer'
 import Header from 'components/Header'
 import ManyPossibilities from 'components/ManyPossibilities'
 import MatchWithWhoMakesADiff from 'components/MatchWithWhoMakesADiff'
@@ -22,6 +23,7 @@ export default function Home() {
         <DataOnTransEducation />
         <DownloadNow />
       </main>
+      <Footer />
     </>
   )
 }
