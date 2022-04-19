@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Bg = styled.div`
   position: sticky;
-  z-index: 2;
+  z-index: 4;
   top: 0;
   background-color: ${({ theme }) => theme.colors.typographyColors.black};
 `
