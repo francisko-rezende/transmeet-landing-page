@@ -41,14 +41,16 @@ export const SecondSpan = styled.span`
 
 export const DataList = styled.ol`
   /* display: flex; */
-  overflow-x: visible; /* TODOchange to auto when responsive */
+  overflow-x: auto;
   display: grid;
-  grid-template-columns: repeat(3, 307px);
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+  /* grid-template-columns: repeat(3, 307px); */
   gap: 23px;
   margin: 22px auto;
-  padding: 0 30px;
+  padding: 0 40px;
   padding-bottom: 40px;
-  max-width: 921px;
-  /* width: fit-content; */
+  /* max-width: 921px; */
+  width: fit-content;
   /* min-width: 1238px; */
 `
