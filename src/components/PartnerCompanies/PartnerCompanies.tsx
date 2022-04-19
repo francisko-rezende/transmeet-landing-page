@@ -12,39 +12,39 @@ const PartnerCompanies = () => {
         <S.Title>- conheça alguns dos nossos parceiros -</S.Title>
         <S.IconsWrapper>
           <Image
-            src="/images/alpargatas-icon.svg"
+            src="/images/alpargatas-icon.webp"
             width={120}
             height={61}
             alt="alpagartas"
           />
           <Image
-            src="/images/google-icon.svg"
+            src="/images/google-icon.webp"
             width={120}
             height={39}
             alt="google"
           />
           <Image
-            src="/images/pitagoras-icon.svg"
+            src="/images/pitagoras-icon.webp"
             width={80}
-            height={59}
+            height={58}
             alt="pitágoras"
           />
           <Image
-            src="/images/raizen-icon.svg"
+            src="/images/raizen-icon.webp"
             width={120}
-            height={37}
+            height={38}
             alt="raízen"
           />
           <Image
-            src="/images/santander-icon.svg"
+            src="/images/santander-icon.webp"
             width={120}
-            height={21}
+            height={22}
             alt="santander"
           />
           <Image
-            src="/images/ioasys-icon.svg"
+            src="/images/ioasys-icon.webp"
             width={80}
-            height={80}
+            height={60}
             alt="ioasys"
           />
         </S.IconsWrapper>
