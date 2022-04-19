@@ -2,7 +2,8 @@
 
 exports[`<YourBridge /> should render the section with all its elements 1`] = `
 .c0 {
-  max-width: 117rem;
+  max-width: calc(1170px + 44px);
+  padding: 0 22px;
   margin: 0 auto;
 }
 
