@@ -5,8 +5,8 @@ export const Item = styled.li`
   flex-direction: column;
   align-items: center;
   list-style: none;
-  /* width: 287px; */
-  width: 270px;
+  width: 287px;
+  /* width: 270px; */
   height: 226px;
   box-shadow: 0px 10px 40px rgba(18, 18, 18, 0.1);
   border-radius: 0px 0px 20px 20px;
