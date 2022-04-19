@@ -36,6 +36,7 @@ export const SocialsWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 14px;
+  margin-top: 31px;
 `
 
 export const Form = styled.form`
