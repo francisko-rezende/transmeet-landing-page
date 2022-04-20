@@ -15,6 +15,11 @@ export const Title = styled.h2`
     font-size: ${theme.font.sizes['4']};
     font-weight: ${theme.font.weight.regular};
     text-align: center;
+
+    @media (max-width: 610px) {
+      font-size: 1rem;
+      font-weight: ${theme.font.weight.bold};
+    }
   `}
 `
 
@@ -29,6 +34,7 @@ export const IconsWrapper = styled.div`
   }
 
   @media (max-width: 400px) {
+    margin-top: 30px;
     gap: 14px;
   }
 `

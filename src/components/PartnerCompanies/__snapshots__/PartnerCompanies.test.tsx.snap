@@ -42,6 +42,13 @@ exports[`<PartnerCompanies /> should render the partner logos correctly 1`] = `
   }
 }
 
+@media (max-width:610px) {
+  .c2 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
 @media (max-width:811px) {
   .c3 {
     gap: 40px;
@@ -50,6 +57,7 @@ exports[`<PartnerCompanies /> should render the partner logos correctly 1`] = `
 
 @media (max-width:400px) {
   .c3 {
+    margin-top: 30px;
     gap: 14px;
   }
 }
