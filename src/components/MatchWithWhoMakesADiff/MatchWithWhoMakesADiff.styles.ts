@@ -10,6 +10,10 @@ export const Wrapper = styled.section`
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
+
+  @media (max-width: 610px) {
+    grid-template-rows: 300px 1fr;
+  }
 `
 export const TextWrapper = styled.div`
   padding-left: ${({ theme }) => theme.grid.gutter};
@@ -27,8 +31,9 @@ export const ImgWrapper = styled.div`
 
   @media (max-width: 811px) {
     transform: unset;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: -15px;
   }
 `
 
@@ -41,6 +46,10 @@ export const Title = styled.h2`
   @media (max-width: 811px) {
     text-align: center;
     font-size: 4.2rem;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 3.1rem;
   }
 `
 
@@ -57,6 +66,11 @@ export const Paragraph = styled.p`
   @media (max-width: 811px) {
     text-align: center;
     font-size: 1.8rem;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+    max-width: 343px;
   }
 `
 
