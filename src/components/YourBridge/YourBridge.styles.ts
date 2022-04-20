@@ -7,14 +7,14 @@ export const Wrapper = styled.section`
   grid-template-columns: 5fr 7fr;
   margin-top: 11.8rem;
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 397px);
   }
 `
 
 export const ContentWrapper = styled.div`
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     grid-row: 2/3;
     margin-top: 3.2rem;
   }
@@ -25,7 +25,7 @@ export const Title = styled.h2`
   font-weight: ${({ theme }) => theme.font.weight.bold};
   color: ${({ theme }) => theme.colors.typographyColors.black};
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     text-align: center;
     font-size: 5.2rem;
   }
@@ -37,7 +37,7 @@ export const Paragraph = styled.p`
   line-height: 1.5;
   max-width: 46.9rem;
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     text-align: center;
     font-size: 1.8rem;
     margin: 3.2rem auto;
@@ -54,7 +54,7 @@ export const ImgWrapper = styled.div`
   position: relative;
   /* background-color: red; */
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     grid-row: 1/2;
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ export const Img = styled.img`
   pointer-events: none;
   transform: translateX(8%) translateY(-29%);
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     transform: translateX(0%) translateY(-29%);
     width: 600px;
     height: 600px;
@@ -101,7 +101,7 @@ export const AppStoreButtonsWrapper = styled.div`
   justify-content: center;
   gap: 24px;
 
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     margin-top: 4.1rem;
   }
 `

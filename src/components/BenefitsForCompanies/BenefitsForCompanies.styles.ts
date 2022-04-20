@@ -5,16 +5,33 @@ export const Wrapper = styled.section`
   display: grid;
   position: relative;
   grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: 808px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
 `
 
 export const ImgWrapper = styled.div`
   transform: translate(-18%, -9%);
   position: absolute;
+  /* grid-column: 1/2; */
+  @media (max-width: 808px) {
+    grid-row: 1/2;
+    /* transform: unset; */
+    /* background-color: red; */
+
+    transform: translate(-0%, -25%);
+  }
 `
 
 export const TextWrapper = styled.div`
   grid-column: 2;
   padding-left: ${({ theme }) => theme.grid.gutter};
+
+  @media (max-width: 808px) {
+    grid-row: 2/3;
+  }
 `
 
 export const SecondaryText = styled.span`
@@ -23,6 +40,13 @@ export const SecondaryText = styled.span`
     font-size: 1.6rem;
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 808px) {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+  }
 `
 
 export const Title = styled.h2`
@@ -32,6 +56,11 @@ export const Title = styled.h2`
     color: ${theme.colors.typographyColors.black};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 808px) {
+    font-size: 3.2rem;
+    text-align: center;
+  }
 `
 
 export const Paragraph = styled.p`
@@ -41,6 +70,11 @@ export const Paragraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 808px) {
+    text-align: center;
+    font-size: 18px;
+  }
 `
 
 export const RegistrationLinkWrapper = styled.div`
@@ -48,9 +82,15 @@ export const RegistrationLinkWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media (max-width: 808px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 export const CallToActionParagraph = styled.p`
   line-height: 1.5;
+  margin-top: 2rem;
 
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.black};
@@ -58,6 +98,9 @@ export const CallToActionParagraph = styled.p`
 
     & > span {
       color: ${theme.colors.secondaryColor.secondary};
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
     }
   `}
 `

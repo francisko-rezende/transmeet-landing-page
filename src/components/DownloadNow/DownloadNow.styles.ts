@@ -5,6 +5,10 @@ export const SectionWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   margin-top: 174px;
+
+  @media (max-width: 808px) {
+    margin-top: 2rem;
+  }
 `
 
 export const BorderWrapper = styled.div`
@@ -38,6 +42,10 @@ export const DownloadSpam = styled.span`
     font-weight: ${theme.font.weight.extraBold};
     background-color: ${theme.colors.typographyColors.white};
   `}
+
+  @media (max-width: 808px) {
+    font-size: 2rem;
+  }
 `
 
 export const BeAPartSpam = styled.span`
@@ -51,6 +59,10 @@ export const BeAPartSpam = styled.span`
     background: ${theme.colors.typographyColors.white};
     font-weight: ${theme.font.weight.extraBold};
   `}
+
+  @media (max-width: 808px) {
+    font-size: 2.4rem;
+  }
 `
 
 export const AppStoreButtonsWrapper = styled.div`
@@ -62,7 +74,15 @@ export const AppStoreButtonsWrapper = styled.div`
   padding: 0 30px;
   top: 55px;
   z-index: 3;
+
+  @media (max-width: 808px) {
+    top: 20px;
+  }
 `
 export const PhoneWrapper = styled.div`
   margin-top: 83px;
+
+  @media (max-width: 808px) {
+    margin-top: -1rem;
+  }
 `

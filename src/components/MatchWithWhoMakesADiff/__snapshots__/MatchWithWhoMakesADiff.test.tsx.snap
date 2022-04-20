@@ -51,15 +51,15 @@ exports[
   color: #152536;
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c1 {
-    margin-top: 17rem;
+    margin-top: 10rem;
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c3 {
     padding-left: unset;
     display: -webkit-box;
@@ -76,7 +76,7 @@ exports[
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c2 {
     -webkit-transform: unset;
     -ms-transform: unset;
@@ -92,23 +92,31 @@ exports[
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c4 {
     text-align: center;
     font-size: 4.2rem;
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c5 {
     text-align: center;
     font-size: 1.8rem;
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c6 {
     text-align: center;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:808px) {
+  .c7 {
+    text-align: center;
+    font-size: 12px;
   }
 }
 

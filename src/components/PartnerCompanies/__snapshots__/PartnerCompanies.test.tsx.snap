@@ -36,7 +36,7 @@ exports[`<PartnerCompanies /> should render the partner logos correctly 1`] = `
   gap: 60px;
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c1 {
     margin-top: 5rem;
   }

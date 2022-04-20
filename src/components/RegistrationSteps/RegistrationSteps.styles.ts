@@ -19,6 +19,10 @@ export const Title = styled.h2`
     font-size: 3.2rem;
     color: ${({ theme }) => theme.colors.typographyColors.black};
   }
+
+  @media (max-width: 808px) {
+    margin-top: 8rem;
+  }
 `
 
 export const StepList = styled.ol`

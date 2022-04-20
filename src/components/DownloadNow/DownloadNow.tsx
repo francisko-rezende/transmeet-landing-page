@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DownloadNowGradientBorder from 'components/DownloadNowGradientBorder'
+// import DownloadNowGradientBorder from 'components/DownloadNowGradientBorder'
 import MainContainer from 'components/MainContainer'
 import Image from 'next/image'
 
@@ -31,7 +31,7 @@ const DownloadNow = () => {
               alt="Em breve na App Store"
             />
           </S.AppStoreButtonsWrapper>
-          <DownloadNowGradientBorder />
+          {/* <DownloadNowGradientBorder /> */}
         </S.BorderWrapper>
         <S.PhoneWrapper>
           <Image

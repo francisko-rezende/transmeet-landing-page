@@ -10,6 +10,18 @@ export const Footer = styled.footer`
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 45px;
   align-items: center;
+
+  @media (max-width: 808px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 20px;
+  }
+`
+
+export const IconAreaWrapper = styled.div`
+  @media (max-width: 808px) {
+    grid-row: 2/3;
+  }
 `
 
 export const YourOppSpan = styled.span`
@@ -20,6 +32,10 @@ export const YourOppSpan = styled.span`
     color: ${theme.colors.typographyColors.white};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 808px) {
+    display: none;
+  }
 `
 
 export const Paragraph = styled.p`
@@ -30,11 +46,31 @@ export const Paragraph = styled.p`
     color: ${theme.colors.typographyColors.white};
     opacity: 0.8;
   `}
+
+  @media (max-width: 808px) {
+    display: none;
+  }
+`
+
+export const ParagraphForm = styled.p`
+  font-size: 1.4rem;
+  line-height: 2;
+  text-align: center;
+
+  ${({ theme }) => css`
+    color: ${theme.colors.typographyColors.white};
+    opacity: 0.8;
+  `}
+
+  @media (max-width: 808px) {
+    /* font-size: 3.2rem; */
+  }
 `
 
 export const SocialsWrapper = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   margin-top: 31px;
 `
@@ -48,6 +84,10 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   justify-self: end;
+
+  @media (max-width: 808px) {
+    justify-self: unset;
+  }
 `
 
 export const FormTitle = styled.h3`

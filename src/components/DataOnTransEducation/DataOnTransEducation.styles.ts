@@ -6,6 +6,10 @@ export const Wrapper = styled.section`
   justify-items: center;
   justify-content: center; */
   /* max-width: 921px; */
+
+  @media (max-width: 808px) {
+    margin-top: 72px;
+  }
 `
 export const FirstSpan = styled.span`
   text-align: center;
@@ -13,6 +17,10 @@ export const FirstSpan = styled.span`
   ${({ theme }) => css`
     color: ${theme.colors.secondaryColor.secondary};
   `}
+
+  @media (max-width: 808px) {
+    font-size: 1.4rem;
+  }
 `
 export const Title = styled.h2`
   font-size: 3.2rem;
@@ -25,6 +33,10 @@ export const Title = styled.h2`
     color: ${theme.colors.typographyColors.black};
     font-weight: ${theme.font.weight.extraBold};
   `}
+
+  @media (max-width: 808px) {
+    font-size: 2.4rem;
+  }
 `
 
 export const SecondSpan = styled.span`

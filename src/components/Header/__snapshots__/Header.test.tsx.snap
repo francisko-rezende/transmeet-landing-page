@@ -246,7 +246,7 @@ exports[`<Header /> should render the header 1`] = `
   }
 }
 
-@media (max-width:809px) {
+@media (max-width:808px) {
   .c2 {
     display: none;
   }

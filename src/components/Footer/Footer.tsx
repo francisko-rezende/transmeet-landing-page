@@ -10,7 +10,7 @@ const Footer = () => {
     <S.Bg>
       <MainContainer>
         <S.Footer>
-          <div>
+          <S.IconAreaWrapper>
             <Image
               src="/images/logo-color.webp"
               width={200}
@@ -42,7 +42,7 @@ const Footer = () => {
                 alt="transmeet"
               />
             </S.SocialsWrapper>
-          </div>
+          </S.IconAreaWrapper>
 
           <S.Form>
             <S.FormTitle>Receba nossas atualizações</S.FormTitle>
@@ -63,10 +63,10 @@ const Footer = () => {
                 />
               </S.Button>
             </S.InputWrapper>
-            <S.Paragraph style={{ textAlign: 'center' }}>
+            <S.ParagraphForm>
               Inscreva-se na nossa lista e tenha sempre notícias novas em
               primeira mão!
-            </S.Paragraph>
+            </S.ParagraphForm>
           </S.Form>
 
           <S.Copyright>

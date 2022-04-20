@@ -23,7 +23,7 @@ export const OnlyOnSmallerScreens = styled.div`
 
 export const OnlyOnLargerScreens = styled.div`
   display: block;
-  @media (max-width: 809px) {
+  @media (max-width: 808px) {
     display: none;
   }
 `
