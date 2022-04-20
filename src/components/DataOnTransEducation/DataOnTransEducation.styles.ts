@@ -16,10 +16,16 @@ export const FirstSpan = styled.span`
   display: block;
   ${({ theme }) => css`
     color: ${theme.colors.secondaryColor.secondary};
+    font-family: ${theme.font.families.manrope};
   `}
 
   @media (max-width: 811px) {
     font-size: 1.4rem;
+    font-weight: ${({ theme }) => theme.font.weight.bold};
+  }
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
   }
 `
 export const Title = styled.h2`
@@ -36,6 +42,10 @@ export const Title = styled.h2`
 
   @media (max-width: 811px) {
     font-size: 2.4rem;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 2rem;
   }
 `
 
@@ -65,4 +75,9 @@ export const DataList = styled.ol`
   /* max-width: 921px; */
   width: fit-content;
   /* min-width: 1238px; */
+
+  @media (max-width: 610px) {
+    padding: 0 20px;
+    padding-bottom: 40px;
+  }
 `
