@@ -10,6 +10,12 @@ export const Wrapper = styled.section`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
+
+  @media (max-width: 610px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
 `
 
 export const ImgWrapper = styled.div`
@@ -23,6 +29,10 @@ export const ImgWrapper = styled.div`
 
     transform: translate(-0%, -25%);
   }
+
+  @media (max-width: 610px) {
+    position: relative;
+  }
 `
 
 export const TextWrapper = styled.div`
@@ -31,6 +41,8 @@ export const TextWrapper = styled.div`
 
   @media (max-width: 811px) {
     grid-row: 2/3;
+    padding-left: unset;
+    margin-top: -30px;
   }
 `
 
@@ -47,6 +59,11 @@ export const SecondaryText = styled.span`
     text-align: center;
     display: block;
   }
+
+  @media (max-width: 610px) {
+    font-size: 0.95rem;
+    margin-top: 0;
+  }
 `
 
 export const Title = styled.h2`
@@ -60,6 +77,10 @@ export const Title = styled.h2`
   @media (max-width: 811px) {
     font-size: 3.2rem;
     text-align: center;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 3rem;
   }
 `
 
@@ -75,6 +96,12 @@ export const Paragraph = styled.p`
     text-align: center;
     font-size: 18px;
   }
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
 `
 
 export const RegistrationLinkWrapper = styled.div`
@@ -86,6 +113,10 @@ export const RegistrationLinkWrapper = styled.div`
   @media (max-width: 811px) {
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 610px) {
+    margin-top: 40px;
   }
 `
 export const CallToActionParagraph = styled.p`
