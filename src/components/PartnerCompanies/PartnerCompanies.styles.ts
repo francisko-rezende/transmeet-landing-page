@@ -19,4 +19,12 @@ export const IconsWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 60px;
+
+  @media (max-width: 811px) {
+    gap: 40px;
+  }
+
+  @media (max-width: 400px) {
+    gap: 14px;
+  }
 `
