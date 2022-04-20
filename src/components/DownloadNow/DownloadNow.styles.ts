@@ -46,6 +46,10 @@ export const DownloadSpam = styled.span`
   @media (max-width: 811px) {
     font-size: 2rem;
   }
+
+  @media (max-width: 610px) {
+    font-size: 1.6rem;
+  }
 `
 
 export const BeAPartSpam = styled.span`
@@ -61,7 +65,12 @@ export const BeAPartSpam = styled.span`
   `}
 
   @media (max-width: 811px) {
+    font-weight: ${({ theme }) => theme.font.weight.bold};
     font-size: 2.4rem;
+  }
+
+  @media (max-width: 610px) {
+    font-size: 2rem;
   }
 `
 
@@ -78,11 +87,21 @@ export const AppStoreButtonsWrapper = styled.div`
   @media (max-width: 811px) {
     top: 20px;
   }
+
+  @media (max-width: 610px) {
+    grid-template-rows: auto auto;
+    max-width: 344px;
+    padding: unset;
+  }
 `
 export const PhoneWrapper = styled.div`
   margin-top: 83px;
 
   @media (max-width: 811px) {
     margin-top: -1rem;
+  }
+
+  @media (max-width: 610px) {
+    display: none;
   }
 `

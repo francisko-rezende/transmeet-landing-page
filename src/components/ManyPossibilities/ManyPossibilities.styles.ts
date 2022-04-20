@@ -14,6 +14,7 @@ export const Bg = styled.div`
   @media (max-width: 610px) {
     margin-top: 50px;
     padding-bottom: unset;
+    padding-top: unset;
   }
 `
 
