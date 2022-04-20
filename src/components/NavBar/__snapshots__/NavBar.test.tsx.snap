@@ -60,7 +60,7 @@ exports[`<NavBar /> should render the heading 1`] = `
     >
       <a
         class="c3"
-        href="#"
+        href="/#"
       >
         Home
       </a>
@@ -70,7 +70,7 @@ exports[`<NavBar /> should render the heading 1`] = `
     >
       <a
         class="c3"
-        href="#"
+        href="/"
       >
         Aplicativo
       </a>
@@ -80,7 +80,7 @@ exports[`<NavBar /> should render the heading 1`] = `
     >
       <a
         class="c3"
-        href="#"
+        href="/about"
       >
         Sobre
       </a>
@@ -90,7 +90,7 @@ exports[`<NavBar /> should render the heading 1`] = `
     >
       <a
         class="c3"
-        href="#"
+        href="/#"
       >
         Contato
       </a>

@@ -30,14 +30,45 @@ const GlobalStyles = createGlobalStyle`
        url('/fonts/inter-v8-latin-800.woff2') format('woff2')
 }
 
-/* manrope-700 - latin */
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local(''),
        url('/fonts/manrope-v11-latin-700.woff2') format('woff2')
 }
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/inter-v8-latin-300.woff2') format('woff2'),
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/inter-v8-latin-500.woff2') format('woff2'),
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/inter-v8-latin-600.woff2') format('woff2'),
+}
+
 
 
 

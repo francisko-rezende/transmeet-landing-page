@@ -321,7 +321,7 @@ exports[`<Header /> should render the header 1`] = `
             >
               <a
                 class="c7"
-                href="#"
+                href="/#"
               >
                 Home
               </a>
@@ -331,7 +331,7 @@ exports[`<Header /> should render the header 1`] = `
             >
               <a
                 class="c7"
-                href="#"
+                href="/"
               >
                 Aplicativo
               </a>
@@ -341,7 +341,7 @@ exports[`<Header /> should render the header 1`] = `
             >
               <a
                 class="c7"
-                href="#"
+                href="/about"
               >
                 Sobre
               </a>
@@ -351,7 +351,7 @@ exports[`<Header /> should render the header 1`] = `
             >
               <a
                 class="c7"
-                href="#"
+                href="/#"
               >
                 Contato
               </a>

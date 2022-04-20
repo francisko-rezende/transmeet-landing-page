@@ -147,7 +147,7 @@ export const Copyright = styled.p`
   font-size: 1.2rem;
   text-align: center;
   grid-column: span 2;
-  font-weight: ${({ theme }) => theme.font.weight.bold};
+  font-weight: ${({ theme }) => theme.font.weight.semiBold};
   color: ${({ theme }) => theme.colors.typographyColors.white};
 
   @media (max-width: 610px) {

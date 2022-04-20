@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Link from 'next/link'
+
 import * as S from './NavBar.styles'
 
 const NavBar = () => {
@@ -7,16 +9,24 @@ const NavBar = () => {
     <S.Nav>
       <S.List>
         <S.Item>
-          <S.NavLink href="#">Home</S.NavLink>
+          <Link href="#" passHref>
+            <S.NavLink>Home</S.NavLink>
+          </Link>
         </S.Item>
         <S.Item>
-          <S.NavLink href="#">Aplicativo</S.NavLink>
+          <Link href="/" passHref>
+            <S.NavLink>Aplicativo</S.NavLink>
+          </Link>
         </S.Item>
         <S.Item>
-          <S.NavLink href="#">Sobre</S.NavLink>
+          <Link href="/about" passHref>
+            <S.NavLink>Sobre</S.NavLink>
+          </Link>
         </S.Item>
         <S.Item>
-          <S.NavLink href="#">Contato</S.NavLink>
+          <Link href="#" passHref>
+            <S.NavLink>Contato</S.NavLink>
+          </Link>
         </S.Item>
       </S.List>
     </S.Nav>
