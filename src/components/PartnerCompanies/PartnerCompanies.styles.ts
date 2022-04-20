@@ -4,6 +4,10 @@ export const Wrapper = styled.section`
   margin-top: 22.3rem;
   display: grid;
   justify-content: center;
+
+  @media (max-width: 809px) {
+    margin-top: 5rem;
+  }
 `
 export const Title = styled.h2`
   ${({ theme }) => css`
