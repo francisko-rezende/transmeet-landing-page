@@ -14,7 +14,7 @@ export const Footer = styled.footer`
   @media (max-width: 811px) {
     grid-template-columns: 1fr;
     justify-items: center;
-    padding-top: 20px;
+    padding-top: 36px;
   }
 `
 
@@ -64,6 +64,11 @@ export const ParagraphForm = styled.p`
 
   @media (max-width: 811px) {
     /* font-size: 3.2rem; */
+
+    @media (max-width: 610px) {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
   }
 `
 
@@ -98,6 +103,10 @@ export const FormTitle = styled.h3`
     color: ${theme.colors.typographyColors.white};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 610px) {
+    margin-bottom: 3rem;
+  }
 `
 export const InputWrapper = styled.div`
   border-radius: 6px;
@@ -140,4 +149,11 @@ export const Copyright = styled.p`
   grid-column: span 2;
   font-weight: ${({ theme }) => theme.font.weight.bold};
   color: ${({ theme }) => theme.colors.typographyColors.white};
+
+  @media (max-width: 610px) {
+    font-size: 1rem;
+    font-weight: ${({ theme }) => theme.font.weight.regular};
+    padding-left: 55px;
+    padding-right: 55px;
+  }
 `

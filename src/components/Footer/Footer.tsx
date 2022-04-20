@@ -70,7 +70,7 @@ const Footer = () => {
           </S.Form>
 
           <S.Copyright>
-            © 2022 Transmeet. Todos os direitos reservados - Desenvolvido pela
+            © 2022 Transmeet. Todos os direitos reservados Desenvolvido pela
             Eduquáquá 🦆{' '}
           </S.Copyright>
         </S.Footer>
