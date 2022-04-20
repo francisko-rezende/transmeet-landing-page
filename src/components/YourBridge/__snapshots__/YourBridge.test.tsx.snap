@@ -13,13 +13,13 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   margin-top: 11.8rem;
 }
 
-.c2 {
+.c3 {
   font-size: 7.2rem;
   font-weight: 700;
   color: #152536;
 }
 
-.c3 {
+.c4 {
   margin-top: 5.1rem;
   text-align: left;
   line-height: 1.5;
@@ -29,25 +29,91 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   font-size: 21px;
 }
 
-.c4 {
+.c6 {
   position: relative;
 }
 
-.c5 {
+.c7 {
   position: absolute;
+  width: 915px;
+  height: 915px;
+  pointer-events: none;
   -webkit-transform: translateX(8%) translateY(-29%);
   -ms-transform: translateX(8%) translateY(-29%);
   transform: translateX(8%) translateY(-29%);
-  pointer-events: none;
 }
 
-.c6 {
+.c5 {
   margin-top: 8.2rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 24px;
+}
+
+@media (max-width:809px) {
+  .c1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,397px);
+  }
+}
+
+@media (max-width:809px) {
+  .c2 {
+    grid-row: 2/3;
+    margin-top: 3.2rem;
+  }
+}
+
+@media (max-width:809px) {
+  .c3 {
+    text-align: center;
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width:809px) {
+  .c4 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 3.2rem auto;
+  }
+}
+
+@media (max-width:809px) {
+  .c6 {
+    grid-row: 1/2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:809px) {
+  .c7 {
+    -webkit-transform: translateX(0%) translateY(-29%);
+    -ms-transform: translateX(0%) translateY(-29%);
+    transform: translateX(0%) translateY(-29%);
+    width: 600px;
+    height: 600px;
+    position: relative;
+  }
+}
+
+@media (max-width:809px) {
+  .c5 {
+    margin-top: 4.1rem;
+  }
 }
 
 <div
@@ -56,9 +122,11 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   <section
     class="c1"
   >
-    <div>
+    <div
+      class="c2"
+    >
       <h2
-        class="c2"
+        class="c3"
       >
         Somos a sua ponte para a 
         <span>
@@ -66,70 +134,68 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
         </span>
       </h2>
       <p
-        class="c3"
+        class="c4"
       >
         Acreditamos que a educação é feita para qualquer pessoa, então criamos através do nosso app e plataforma, pontes para uma educação mais inclusiva.
          
       </p>
-    </div>
-    <div
-      class="c4"
-    >
-      <img
-        alt="Um estudante sorrindo"
+      <div
         class="c5"
-        height="915"
-        src="/images/pic-01.webp"
-        width="915"
-      />
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2760%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="Em breve no Google Play"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </span>
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2760%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="Em breve na App Store"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </span>
+      </div>
     </div>
     <div
       class="c6"
     >
-      <span
-        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-      >
-        <span
-          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-        >
-          <img
-            alt=""
-            aria-hidden="true"
-            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2760%27/%3e"
-            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-          />
-        </span>
-        <img
-          alt="Em breve no Google Play"
-          data-nimg="intrinsic"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-        />
-        <noscript />
-      </span>
-      <span
-        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-      >
-        <span
-          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-        >
-          <img
-            alt=""
-            aria-hidden="true"
-            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%2760%27/%3e"
-            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-          />
-        </span>
-        <img
-          alt="Em breve na App Store"
-          data-nimg="intrinsic"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-        />
-        <noscript />
-      </span>
+      <img
+        alt="Um estudante sorrindo"
+        class="c7"
+        src="/images/pic-01-2.webp"
+      />
     </div>
   </section>
 </div>

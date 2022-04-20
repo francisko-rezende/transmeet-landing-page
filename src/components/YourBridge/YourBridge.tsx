@@ -9,7 +9,7 @@ const YourBridge = () => {
   return (
     <MainContainer>
       <S.Wrapper>
-        <div>
+        <S.ContentWrapper>
           <S.Title>
             Somos a sua ponte para a <span>transformação!</span>
           </S.Title>
@@ -18,12 +18,26 @@ const YourBridge = () => {
             criamos através do nosso app e plataforma, pontes para uma educação
             mais inclusiva.{' '}
           </S.Paragraph>
-        </div>
+          <S.AppStoreButtonsWrapper>
+            <Image
+              src="/images/google.svg"
+              width={176}
+              height={60}
+              alt="Em breve no Google Play"
+            />
+            <Image
+              src="/images/apple.svg"
+              width={176}
+              height={60}
+              alt="Em breve na App Store"
+            />
+          </S.AppStoreButtonsWrapper>
+        </S.ContentWrapper>
         <S.ImgWrapper>
           <S.Img
-            src="/images/pic-01.webp"
-            width={915}
-            height={915}
+            src="/images/pic-01-2.webp"
+            // width={915}
+            // height={915}
             alt="Um estudante sorrindo"
           />
           {/* <Image
@@ -35,20 +49,6 @@ const YourBridge = () => {
             alt="Um estudante sorrindo"
           /> */}
         </S.ImgWrapper>
-        <S.AppStoreButtonsWrapper>
-          <Image
-            src="/images/google.svg"
-            width={176}
-            height={60}
-            alt="Em breve no Google Play"
-          />
-          <Image
-            src="/images/apple.svg"
-            width={176}
-            height={60}
-            alt="Em breve na App Store"
-          />
-        </S.AppStoreButtonsWrapper>
       </S.Wrapper>
     </MainContainer>
   )
