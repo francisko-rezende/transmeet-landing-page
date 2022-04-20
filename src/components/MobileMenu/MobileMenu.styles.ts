@@ -23,10 +23,16 @@ export const Wrapper = styled.menu`
   padding: 16px 0;
 `
 export const LogoWrapperMenuClosed = styled.div`
-  grid-column: 1/3;
+  grid-column: 2/3;
+  place-self: center;
+`
+
+export const Buns = styled.div`
+  grid-column: 3/4;
 `
 
 export const LogoWrapper = styled.div`
+  margin-top: 110px;
   margin-bottom: 108px;
 `
 
@@ -65,14 +71,14 @@ export const StyledLink = styled.a`
 `
 
 export const OpenedMenu = styled.nav<FullMenuProps>`
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 
   ${({ isOpen, theme }) => css`
     opacity: ${isOpen ? 1 : 0};
     background: ${theme.colors.typographyColors.black};
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;

@@ -63,6 +63,12 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
+@media (max-width:610px) {
+  .c1 {
+    grid-template-rows: 250px 1fr;
+  }
+}
+
 @media (max-width:811px) {
   .c2 {
     grid-row: 2/3;
@@ -77,11 +83,25 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
+@media (max-width:610px) {
+  .c3 {
+    font-size: 3.7rem;
+  }
+}
+
 @media (max-width:811px) {
   .c4 {
     text-align: center;
     font-size: 1.8rem;
     margin: 3.2rem auto;
+  }
+}
+
+@media (max-width:610px) {
+  .c4 {
+    font-size: 1.2rem;
+    max-width: 262px;
+    margin-top: 25px;
   }
 }
 
@@ -99,6 +119,14 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
+@media (max-width:610px) {
+
+}
+
+@media (max-width:610px) {
+
+}
+
 @media (max-width:811px) {
   .c7 {
     -webkit-transform: translateX(0%) translateY(-29%);
@@ -107,6 +135,15 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
     width: 600px;
     height: 600px;
     position: relative;
+  }
+}
+
+@media (max-width:610px) {
+  .c7 {
+    top: -60px;
+    width: 465px;
+    height: 465px;
+    position: absolute;
   }
 }
 

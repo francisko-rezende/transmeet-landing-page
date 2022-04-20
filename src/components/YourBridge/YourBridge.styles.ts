@@ -11,6 +11,11 @@ export const Wrapper = styled.section`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 397px);
   }
+
+  @media (max-width: 610px) {
+    grid-template-rows: 250px 1fr;
+    /* grid-template-columns: 346px; */
+  }
 `
 
 export const ContentWrapper = styled.div`
@@ -29,6 +34,10 @@ export const Title = styled.h2`
     text-align: center;
     font-size: 5.2rem;
   }
+
+  @media (max-width: 610px) {
+    font-size: 3.7rem;
+  }
 `
 
 export const Paragraph = styled.p`
@@ -37,27 +46,46 @@ export const Paragraph = styled.p`
   line-height: 1.5;
   max-width: 46.9rem;
 
+  ${({ theme }) => css`
+    color: ${theme.colors.typographyColors.gray};
+    font-weight: ${theme.font.weight.regular};
+    font-size: ${theme.font.sizes['7']};
+  `};
+
   @media (max-width: 811px) {
     text-align: center;
     font-size: 1.8rem;
     margin: 3.2rem auto;
   }
 
-  ${({ theme }) => css`
-    color: ${theme.colors.typographyColors.gray};
-    font-weight: ${theme.font.weight.regular};
-    font-size: ${theme.font.sizes['7']};
-  `};
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+    max-width: 262px;
+    margin-top: 25px;
+  }
 `
 
 export const ImgWrapper = styled.div`
   position: relative;
   /* background-color: red; */
+  /* background: red; */
 
   @media (max-width: 811px) {
     grid-row: 1/2;
     display: flex;
     justify-content: center;
+  }
+
+  @media (max-width: 610px) {
+    /* display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; */
+    /* transform: translateX(-5.5%) translateY(-45%);
+    width: 386px;
+    height: 386px;
+    position: absolute; */
+    /* height: 1px; */
   }
 
   /* &::after {
@@ -75,6 +103,10 @@ export const ImgWrapper = styled.div`
   /* position: absolute;
   top: 0;
   left: 50px; */
+  @media (max-width: 610px) {
+    /* display: flex;
+    justify-content: center; */
+  }
 `
 export const Img = styled.img`
   position: absolute;
@@ -92,6 +124,19 @@ export const Img = styled.img`
     height: 600px;
     /* transform: unset; */
     position: relative;
+  }
+
+  @media (max-width: 610px) {
+    /* display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; */
+    /* transform: translateX(-5.5%) translateY(-45%); */
+    /* transform: translateY(-30%); */
+    top: -60px;
+    width: 465px;
+    height: 465px;
+    position: absolute;
   }
 `
 

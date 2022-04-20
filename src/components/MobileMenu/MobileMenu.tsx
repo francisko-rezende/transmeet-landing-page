@@ -21,7 +21,9 @@ const MobileMenu = () => {
           alt="transmeet"
         />
       </S.LogoWrapperMenuClosed>
-      <HamburguerButton onClick={() => setIsOpen(true)} />
+      <S.Buns>
+        <HamburguerButton onClick={() => setIsOpen(true)} />
+      </S.Buns>
 
       <S.OpenedMenu aria-hidden={!isOpen} isOpen={isOpen}>
         <CloseMenuButton onClick={() => setIsOpen(false)} />

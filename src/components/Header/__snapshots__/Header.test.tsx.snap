@@ -58,7 +58,7 @@ exports[`<Header /> should render the header 1`] = `
   margin: 0 auto;
 }
 
-.c16 {
+.c17 {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -66,7 +66,7 @@ exports[`<Header /> should render the header 1`] = `
   height: 17px;
 }
 
-.c14 {
+.c15 {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -86,14 +86,20 @@ exports[`<Header /> should render the header 1`] = `
 }
 
 .c13 {
-  grid-column: 1/3;
+  grid-column: 2/3;
+  place-self: center;
 }
 
-.c17 {
+.c14 {
+  grid-column: 3/4;
+}
+
+.c18 {
+  margin-top: 110px;
   margin-bottom: 108px;
 }
 
-.c19 {
+.c20 {
   color: #FFFFFF;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -103,11 +109,11 @@ exports[`<Header /> should render the header 1`] = `
   font-size: 16px;
 }
 
-.c19:hover {
+.c20:hover {
   font-weight: 700;
 }
 
-.c19:hover::after {
+.c20:hover::after {
   content: '';
   position: absolute;
   display: block;
@@ -118,21 +124,10 @@ exports[`<Header /> should render the header 1`] = `
   animation: gubmQU 0.3s forwards;
 }
 
-.c15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+.c16 {
   opacity: 0;
   background: #152536;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -144,19 +139,19 @@ exports[`<Header /> should render the header 1`] = `
   transition: opacity 0.3s ease-in-out;
 }
 
-.c15 > button[aria-label='Fechar menu'] {
+.c16 > button[aria-label='Fechar menu'] {
   position: absolute;
   top: 0;
   right: 0;
   margin: 20px 50px;
 }
 
-.c15 .c18 {
+.c16 .c19 {
   color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.c15 .c18:hover::after {
+.c16 .c19:hover::after {
   content: unset;
 }
 
@@ -385,32 +380,36 @@ exports[`<Header /> should render the header 1`] = `
             <noscript />
           </span>
         </div>
-        <button
-          aria-label="Abrir menu"
+        <div
           class="c14"
-          height="14px"
-          width="22px"
         >
-          <svg
-            fill="none"
-            viewBox="0 0 22 14"
-            xmlns="http://www.w3.org/2000/svg"
+          <button
+            aria-label="Abrir menu"
+            class="c15"
+            height="14px"
+            width="22px"
           >
-            <path
-              clip-rule="evenodd"
-              d="M20.634 13.804H1.145c-.633 0-1.145-.359-1.145-.802v-.804c0-.444.512-.803 1.145-.803h19.49c.632 0 1.147.36 1.147.803v.804c0 .443-.515.802-1.148.802Zm0-5.62H1.145C.512 8.184 0 7.824 0 7.381v-.802c0-.443.512-.803 1.145-.803h19.49c.632 0 1.147.36 1.147.803v.802c0 .444-.515.803-1.148.803Zm0-5.619H1.145C.512 2.565 0 2.205 0 1.762V.959C0 .516.512.157 1.145.157h19.49c.632 0 1.147.36 1.147.802v.803c0 .443-.515.803-1.148.803Z"
-              fill="#fff"
-              fill-rule="evenodd"
-            />
-          </svg>
-        </button>
+            <svg
+              fill="none"
+              viewBox="0 0 22 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M20.634 13.804H1.145c-.633 0-1.145-.359-1.145-.802v-.804c0-.444.512-.803 1.145-.803h19.49c.632 0 1.147.36 1.147.803v.804c0 .443-.515.802-1.148.802Zm0-5.62H1.145C.512 8.184 0 7.824 0 7.381v-.802c0-.443.512-.803 1.145-.803h19.49c.632 0 1.147.36 1.147.803v.802c0 .444-.515.803-1.148.803Zm0-5.619H1.145C.512 2.565 0 2.205 0 1.762V.959C0 .516.512.157 1.145.157h19.49c.632 0 1.147.36 1.147.802v.803c0 .443-.515.803-1.148.803Z"
+                fill="#fff"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
         <nav
           aria-hidden="true"
-          class="c15"
+          class="c16"
         >
           <button
             aria-label="Fechar menu"
-            class="c16"
+            class="c17"
             height="17px"
             width="17px"
           >
@@ -437,7 +436,7 @@ exports[`<Header /> should render the header 1`] = `
             class=""
           >
             <div
-              class="c17"
+              class="c18"
             >
               <span
                 style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -466,7 +465,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c18 c19"
+                class="c19 c20"
                 href="/#"
               >
                 Home
@@ -476,7 +475,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c18 c19"
+                class="c19 c20"
                 href="/#"
               >
                 Aplicativo
@@ -486,7 +485,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c18 c19"
+                class="c19 c20"
                 href="/#"
               >
                 Sobre
@@ -496,7 +495,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c18 c19"
+                class="c19 c20"
                 href="/#"
               >
                 Contato
