@@ -36,7 +36,9 @@ export const LogoWrapper = styled.div`
   margin-bottom: 108px;
 `
 
-export const MenuList = styled.ul``
+export const MenuList = styled.ul`
+  list-style: none;
+`
 
 export const MenuItem = styled.li``
 

@@ -94,12 +94,16 @@ exports[`<Header /> should render the header 1`] = `
   grid-column: 3/4;
 }
 
-.c18 {
+.c20 {
   margin-top: 110px;
   margin-bottom: 108px;
 }
 
-.c20 {
+.c19 {
+  list-style: none;
+}
+
+.c22 {
   color: #FFFFFF;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -109,11 +113,11 @@ exports[`<Header /> should render the header 1`] = `
   font-size: 16px;
 }
 
-.c20:hover {
+.c22:hover {
   font-weight: 700;
 }
 
-.c20:hover::after {
+.c22:hover::after {
   content: '';
   position: absolute;
   display: block;
@@ -146,12 +150,37 @@ exports[`<Header /> should render the header 1`] = `
   margin: 20px 50px;
 }
 
-.c16 .c19 {
+.c16 .c18 > :last-child {
+  padding-top: 100px;
+}
+
+.c16 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c16 .c21 {
   color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.c16 .c19:hover::after {
+.c16 .c21:hover::after {
   content: unset;
 }
 
@@ -433,10 +462,10 @@ exports[`<Header /> should render the header 1`] = `
             </svg>
           </button>
           <ul
-            class=""
+            class="c18 c19"
           >
             <div
-              class="c18"
+              class="c20"
             >
               <span
                 style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -465,7 +494,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c19 c20"
+                class="c21 c22"
                 href="/#"
               >
                 Home
@@ -475,7 +504,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c19 c20"
+                class="c21 c22"
                 href="/#"
               >
                 Aplicativo
@@ -485,7 +514,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c19 c20"
+                class="c21 c22"
                 href="/#"
               >
                 Sobre
@@ -495,7 +524,7 @@ exports[`<Header /> should render the header 1`] = `
               class=""
             >
               <a
-                class="c19 c20"
+                class="c21 c22"
                 href="/#"
               >
                 Contato
