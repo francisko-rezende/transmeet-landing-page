@@ -80,7 +80,7 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
 @media (max-width:809px) {
   .c4 {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 3.2rem auto;
   }
 }

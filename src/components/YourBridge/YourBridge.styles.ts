@@ -39,7 +39,7 @@ export const Paragraph = styled.p`
 
   @media (max-width: 809px) {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 3.2rem auto;
   }
 
