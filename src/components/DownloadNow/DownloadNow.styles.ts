@@ -6,7 +6,7 @@ export const SectionWrapper = styled.section`
   align-items: center;
   margin-top: 174px;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 2rem;
   }
 `
@@ -43,7 +43,7 @@ export const DownloadSpam = styled.span`
     background-color: ${theme.colors.typographyColors.white};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     font-size: 2rem;
   }
 `
@@ -60,7 +60,7 @@ export const BeAPartSpam = styled.span`
     font-weight: ${theme.font.weight.extraBold};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     font-size: 2.4rem;
   }
 `
@@ -75,14 +75,14 @@ export const AppStoreButtonsWrapper = styled.div`
   top: 55px;
   z-index: 3;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     top: 20px;
   }
 `
 export const PhoneWrapper = styled.div`
   margin-top: 83px;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: -1rem;
   }
 `

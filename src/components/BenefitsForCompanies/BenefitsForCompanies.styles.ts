@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
   position: relative;
   grid-template-columns: repeat(2, 1fr);
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
@@ -16,7 +16,7 @@ export const ImgWrapper = styled.div`
   transform: translate(-18%, -9%);
   position: absolute;
   /* grid-column: 1/2; */
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     grid-row: 1/2;
     /* transform: unset; */
     /* background-color: red; */
@@ -29,7 +29,7 @@ export const TextWrapper = styled.div`
   grid-column: 2;
   padding-left: ${({ theme }) => theme.grid.gutter};
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     grid-row: 2/3;
   }
 `
@@ -41,7 +41,7 @@ export const SecondaryText = styled.span`
     font-weight: ${theme.font.weight.bold};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 30px;
     font-size: 1.2rem;
     text-align: center;
@@ -57,7 +57,7 @@ export const Title = styled.h2`
     font-weight: ${theme.font.weight.bold};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     font-size: 3.2rem;
     text-align: center;
   }
@@ -71,7 +71,7 @@ export const Paragraph = styled.p`
     color: ${theme.colors.typographyColors.gray};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     text-align: center;
     font-size: 18px;
   }
@@ -83,7 +83,7 @@ export const RegistrationLinkWrapper = styled.div`
   align-items: flex-start;
   justify-content: space-between;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     flex-direction: column;
     align-items: center;
   }

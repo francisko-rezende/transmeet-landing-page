@@ -56,28 +56,28 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   gap: 24px;
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c1 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2,397px);
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c2 {
     grid-row: 2/3;
     margin-top: 3.2rem;
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c3 {
     text-align: center;
     font-size: 5.2rem;
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c4 {
     text-align: center;
     font-size: 1.8rem;
@@ -85,7 +85,7 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c6 {
     grid-row: 1/2;
     display: -webkit-box;
@@ -99,7 +99,7 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c7 {
     -webkit-transform: translateX(0%) translateY(-29%);
     -ms-transform: translateX(0%) translateY(-29%);
@@ -110,7 +110,7 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c5 {
     margin-top: 4.1rem;
   }

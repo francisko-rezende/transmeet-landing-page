@@ -20,7 +20,7 @@ export const Title = styled.h2`
     color: ${({ theme }) => theme.colors.typographyColors.black};
   }
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 8rem;
   }
 `

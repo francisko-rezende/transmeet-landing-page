@@ -16,14 +16,14 @@ export const Header = styled.header`
 
 export const OnlyOnSmallerScreens = styled.div`
   display: block;
-  @media (min-width: 808px) {
+  @media (min-width: 811px) {
     display: none;
   }
 `
 
 export const OnlyOnLargerScreens = styled.div`
   display: block;
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     display: none;
   }
 `

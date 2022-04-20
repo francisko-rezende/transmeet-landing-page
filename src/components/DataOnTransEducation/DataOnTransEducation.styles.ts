@@ -7,7 +7,7 @@ export const Wrapper = styled.section`
   justify-content: center; */
   /* max-width: 921px; */
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 72px;
   }
 `
@@ -18,7 +18,7 @@ export const FirstSpan = styled.span`
     color: ${theme.colors.secondaryColor.secondary};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     font-size: 1.4rem;
   }
 `
@@ -34,7 +34,7 @@ export const Title = styled.h2`
     font-weight: ${theme.font.weight.extraBold};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     font-size: 2.4rem;
   }
 `

@@ -11,7 +11,7 @@ export const Footer = styled.footer`
   grid-row-gap: 45px;
   align-items: center;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     grid-template-columns: 1fr;
     justify-items: center;
     padding-top: 20px;
@@ -19,7 +19,7 @@ export const Footer = styled.footer`
 `
 
 export const IconAreaWrapper = styled.div`
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     grid-row: 2/3;
   }
 `
@@ -33,7 +33,7 @@ export const YourOppSpan = styled.span`
     font-weight: ${theme.font.weight.bold};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     display: none;
   }
 `
@@ -47,7 +47,7 @@ export const Paragraph = styled.p`
     opacity: 0.8;
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     display: none;
   }
 `
@@ -62,7 +62,7 @@ export const ParagraphForm = styled.p`
     opacity: 0.8;
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     /* font-size: 3.2rem; */
   }
 `
@@ -85,7 +85,7 @@ export const Form = styled.form`
   align-items: center;
   justify-self: end;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     justify-self: unset;
   }
 `

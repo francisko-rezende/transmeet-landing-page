@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
   display: grid;
   justify-content: center;
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 5rem;
   }
 `

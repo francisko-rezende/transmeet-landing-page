@@ -240,13 +240,13 @@ exports[`<Header /> should render the header 1`] = `
   display: block;
 }
 
-@media (min-width:808px) {
+@media (min-width:811px) {
   .c11 {
     display: none;
   }
 }
 
-@media (max-width:808px) {
+@media (max-width:811px) {
   .c2 {
     display: none;
   }

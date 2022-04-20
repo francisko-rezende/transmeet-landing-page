@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     margin-top: 10rem;
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -14,7 +14,7 @@ export const Wrapper = styled.section`
 export const TextWrapper = styled.div`
   padding-left: ${({ theme }) => theme.grid.gutter};
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     padding-left: unset;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ export const TextWrapper = styled.div`
 export const ImgWrapper = styled.div`
   transform: translate(-10%, -20%);
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     transform: unset;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ export const Title = styled.h2`
     font-size: 5.2rem;
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     text-align: center;
     font-size: 4.2rem;
   }
@@ -54,7 +54,7 @@ export const Paragraph = styled.p`
     font-weight: ${theme.font.weight.regular};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     text-align: center;
     font-size: 1.8rem;
   }
@@ -70,7 +70,7 @@ export const SecondaryText = styled.span`
     font-size: 1.6rem;
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     text-align: center;
     font-size: 12px;
   }
@@ -82,7 +82,7 @@ export const BoldText = styled.span`
     color: ${theme.colors.typographyColors.black};
   `}
 
-  @media (max-width: 808px) {
+  @media (max-width: 811px) {
     text-align: center;
     font-size: 12px;
   }
