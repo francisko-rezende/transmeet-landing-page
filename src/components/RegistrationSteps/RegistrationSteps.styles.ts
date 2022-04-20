@@ -23,6 +23,15 @@ export const Title = styled.h2`
   @media (max-width: 811px) {
     margin-top: 8rem;
   }
+
+  @media (max-width: 610px) {
+    margin-top: 54px;
+    font-size: 1.2rem;
+
+    & > span {
+      font-size: 2rem;
+    }
+  }
 `
 
 export const StepList = styled.ol`
@@ -41,4 +50,8 @@ export const StepList = styled.ol`
   padding-bottom: 40px;
   /* width: fit-content; */
   /* min-width: 1238px; */
+
+  @media (max-width: 610px) {
+    margin-top: 3rem;
+  }
 `
