@@ -10,6 +10,5 @@ export const Button = styled.button<HamburguerButtonProps>`
   ${({ width, height }) => css`
     width: ${width};
     height: ${height};
-  `}/* height: 15px;
-  width: 22px; */
+  `}
 `

@@ -13,3 +13,17 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
 `
+
+export const OnlyOnSmallerScreens = styled.div`
+  display: block;
+  @media (min-width: 808px) {
+    display: none;
+  }
+`
+
+export const OnlyOnLargerScreens = styled.div`
+  display: block;
+  @media (max-width: 809px) {
+    display: none;
+  }
+`
