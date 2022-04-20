@@ -10,6 +10,11 @@ export const Bg = styled.div`
     margin-top: 80px;
     background-color: unset;
   }
+
+  @media (max-width: 610px) {
+    margin-top: 50px;
+    padding-bottom: unset;
+  }
 `
 
 export const Wrapper = styled.section`
@@ -21,6 +26,10 @@ export const Wrapper = styled.section`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  @media (max-width: 610px) {
+    grid-template-rows: auto auto;
+  }
 `
 export const TextWrapper = styled.div`
   @media (max-width: 811px) {
@@ -30,6 +39,11 @@ export const TextWrapper = styled.div`
     text-align: center;
     gap: 20px;
     margin-top: 14rem;
+  }
+
+  @media (max-width: 610px) {
+    margin: unset;
+    margin-top: 23px;
   }
 `
 
@@ -58,6 +72,10 @@ export const DescriptionParagraph = styled.p`
     margin-top: unset;
     font-size: 1.8rem;
   }
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const LastParagraph = styled.p`
@@ -75,6 +93,11 @@ export const LastParagraph = styled.p`
   @media (max-width: 811px) {
     grid-row: 1/2;
   }
+
+  @media (max-width: 610px) {
+    margin: unset;
+    font-size: 0.96rem;
+  }
 `
 export const AppStoreButtonsWrapper = styled.div`
   margin-top: 6.4rem;
@@ -90,4 +113,11 @@ export const ImgWrapper = styled.div`
   position: absolute;
   right: -11.5%;
   top: -54px;
+
+  @media (max-width: 610px) {
+    position: static;
+    border-radius: 40px;
+    overflow: hidden;
+    max-height: fit-content;
+  }
 `
