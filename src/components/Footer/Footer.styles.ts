@@ -64,20 +64,23 @@ export const ParagraphForm = styled.p`
 
   @media (max-width: 811px) {
     /* font-size: 3.2rem; */
-
-    @media (max-width: 610px) {
-      font-size: 1.2rem;
-      line-height: 1.5;
-    }
+  }
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
 `
 
 export const SocialsWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 14px;
   margin-top: 31px;
+
+  @media (max-width: 811px) {
+    justify-content: center;
+  }
 `
 
 export const Form = styled.form`
@@ -137,6 +140,7 @@ export const Input = styled.input`
 export const Button = styled.button`
   padding: 0 18px;
   border: none;
+  cursor: pointer;
   ${({ theme }) => css`
     background-color: ${theme.colors.secondaryColor.secondary};
 
