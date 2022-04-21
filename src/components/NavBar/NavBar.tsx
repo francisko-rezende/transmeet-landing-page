@@ -9,12 +9,12 @@ const NavBar = () => {
     <S.Nav>
       <S.List>
         <S.Item>
-          <Link href="#" passHref>
+          <Link href="/" passHref>
             <S.NavLink>Home</S.NavLink>
           </Link>
         </S.Item>
         <S.Item>
-          <Link href="/" passHref>
+          <Link href="/application" passHref>
             <S.NavLink>Aplicativo</S.NavLink>
           </Link>
         </S.Item>

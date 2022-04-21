@@ -87,7 +87,7 @@ export const EmailInfoParagraph = styled.p`
   }
 `
 export const EmailLink = styled.a`
-  text-decoration: none;
+  text-decoration: underline;
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.gray};
     font-weight: ${theme.font.weight.bold};
