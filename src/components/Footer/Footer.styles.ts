@@ -127,6 +127,11 @@ export const Input = styled.input`
   border: none;
   height: 50px;
   padding-left: 35px;
+
+  &:focus {
+    outline: none;
+    background-color: ${({ theme }) => theme.colors.neutralColors.grayLighter};
+  }
 `
 
 export const Button = styled.button`
