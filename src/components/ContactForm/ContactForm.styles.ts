@@ -7,6 +7,10 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media (max-width: 610px) {
+    margin-top: 20px;
+  }
 `
 
 export const Label = styled.label`
@@ -61,6 +65,10 @@ export const SubmitButton = styled.button`
     &:hover {
       background: ${theme.colors.secondaryColor.secondaryDark};
     }
+
+    @media (max-width: 610px) {
+      margin-top: 30px;
+    }
   `}
 `
 export const EmailInfoParagraph = styled.p`
@@ -71,6 +79,11 @@ export const EmailInfoParagraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.gray};
   `};
+
+  @media (max-width: 610px) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 `
 export const EmailLink = styled.a`
   text-decoration: none;
