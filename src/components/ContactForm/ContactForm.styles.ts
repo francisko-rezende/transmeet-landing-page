@@ -67,7 +67,7 @@ export const SubmitButton = styled.button`
     }
 
     @media (max-width: 610px) {
-      margin-top: 30px;
+      margin-top: 20px;
     }
   `}
 `
@@ -81,8 +81,9 @@ export const EmailInfoParagraph = styled.p`
   `};
 
   @media (max-width: 610px) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-top: 10px; */
+    margin-top: unset;
+    margin-bottom: 30px;
   }
 `
 export const EmailLink = styled.a`
