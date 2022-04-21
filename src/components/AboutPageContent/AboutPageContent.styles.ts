@@ -123,6 +123,7 @@ export const FirstDefinition = styled.div`
   margin: 0 auto;
   margin-top: 87px;
   line-height: 1.7;
+  font-style: italic;
 
   ${({ theme }) => css`
     background: ${theme.colors.neutralColors.grayLighter};
@@ -138,6 +139,7 @@ export const FirstDefinition = styled.div`
 `
 
 export const FirstDefinitionSpan = styled.span`
+  font-style: normal;
   display: block;
   line-height: 1.2;
   ${({ theme }) => css`
@@ -188,4 +190,16 @@ export const TeamSpan = styled(Paragraph)`
   text-align: left;
 
   font-weight: ${({ theme }) => theme.font.weight.bold};
+`
+export const ReportLink = styled.a`
+  text-decoration: underline;
+  color: ${({ theme }) => theme.colors.secondaryColor.secondary};
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.secondaryColor.secondaryDark};
+  }
+
+  &:visited {
+    color: ${({ theme }) => theme.colors.primaryColor.primary};
+  }
 `

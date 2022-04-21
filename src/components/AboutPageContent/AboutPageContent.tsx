@@ -135,9 +135,13 @@ const AboutPageContent = () => {
           <S.Paragraph>
             Lembrando que caso você queira saber detalhes sobre o nosso projeto,
             é só baixar nosso{' '}
-            <a href="/files/test.pdf" target="_blank" rel="noopener noreferrer">
+            <S.ReportLink
+              href="/files/test.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               relatório completo em PDF
-            </a>
+            </S.ReportLink>
             . Nele você terá acesso a links e detalhes de cada etapa da
             construção deste projeto que é a Transmeet!
           </S.Paragraph>
