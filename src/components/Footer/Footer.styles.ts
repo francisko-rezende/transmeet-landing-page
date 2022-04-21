@@ -137,6 +137,7 @@ export const Input = styled.input`
 export const Button = styled.button`
   padding: 0 18px;
   border: none;
+  cursor: pointer;
   ${({ theme }) => css`
     background-color: ${theme.colors.secondaryColor.secondary};
 
