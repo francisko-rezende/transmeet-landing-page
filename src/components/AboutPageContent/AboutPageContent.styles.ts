@@ -95,7 +95,7 @@ export const FirstBlock = styled.div`
 
   @media (max-width: 610px) {
     margin-top: 5rem;
-    gap: 37px;
+    gap: 28px;
   }
 `
 
