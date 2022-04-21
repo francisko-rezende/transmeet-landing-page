@@ -90,7 +90,7 @@ exports[`<NavBar /> should render the heading 1`] = `
     >
       <a
         class="c3"
-        href="/#"
+        href="/contact"
       >
         Contato
       </a>

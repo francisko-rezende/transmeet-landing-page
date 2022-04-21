@@ -24,7 +24,7 @@ const NavBar = () => {
           </Link>
         </S.Item>
         <S.Item>
-          <Link href="#" passHref>
+          <Link href="/contact" passHref>
             <S.NavLink>Contato</S.NavLink>
           </Link>
         </S.Item>
