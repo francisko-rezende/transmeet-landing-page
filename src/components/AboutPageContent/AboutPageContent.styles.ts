@@ -8,6 +8,10 @@ export const Title = styled.h1`
     font-weight: ${theme.font.weight.semiBold};
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 2rem;
+  }
 `
 
 export const Main = styled.main`
@@ -21,6 +25,10 @@ export const TitleSpan = styled.span`
     color: ${theme.colors.secondaryColor.secondary};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 3.7rem;
+  }
 `
 
 export const AbstractWrapper = styled.div`
@@ -28,6 +36,10 @@ export const AbstractWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  @media (max-width: 610px) {
+    gap: 2.4rem;
+  }
 `
 
 export const Abstract = styled.p`
@@ -40,6 +52,10 @@ export const Abstract = styled.p`
     font-weight: ${theme.font.weight.light};
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const DownloadLink = styled.a`
@@ -63,6 +79,10 @@ export const DownloadLink = styled.a`
       background-color: ${theme.colors.secondaryColor.secondary};
     }
   `}
+
+  @media (max-width: 610px) {
+    margin-top: 5rem;
+  }
 `
 
 export const FirstBlock = styled.div`
@@ -72,6 +92,11 @@ export const FirstBlock = styled.div`
   flex-direction: column;
   gap: 65px;
   align-items: center;
+
+  @media (max-width: 610px) {
+    margin-top: 5rem;
+    gap: 37px;
+  }
 `
 
 export const Paragraph = styled.p`
@@ -83,6 +108,10 @@ export const Paragraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.black};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 1.4rem;
+  }
 `
 
 export const FirstDefinition = styled.div`
@@ -100,6 +129,12 @@ export const FirstDefinition = styled.div`
     font-weight: ${theme.font.weight.medium};
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 1.4rem;
+    padding: 1.4rem 2.8rem;
+    margin-top: 40px;
+  }
 `
 
 export const FirstDefinitionSpan = styled.span`
@@ -109,22 +144,42 @@ export const FirstDefinitionSpan = styled.span`
     color: ${theme.colors.secondaryColor.secondary};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 610px) {
+    line-height: unset;
+  }
 `
 
 export const SecondBlock = styled(FirstBlock)`
   margin-top: 90px;
+
+  @media (max-width: 610px) {
+    margin-top: 45px;
+  }
 `
 
 export const SecondDefinition = styled(FirstDefinition)`
   margin-top: 101px;
+
+  @media (max-width: 610px) {
+    margin-top: 50px;
+  }
 `
 
 export const ThirdBlock = styled(FirstBlock)`
   margin-top: 88px;
+
+  @media (max-width: 610px) {
+    margin-top: 44px;
+  }
 `
 
 export const ThirdDefinition = styled(FirstDefinition)`
   margin-top: 92px;
+
+  @media (max-width: 610px) {
+    margin-top: 46px;
+  }
 `
 export const FourthBlock = styled(FirstBlock)``
 
