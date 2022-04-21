@@ -1,6 +1,7 @@
 import EducationOpportunityDiversity from 'components/EducationOpportunityDiversity'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
+import ThisIsOurJob from 'components/ThisIsOurJob'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <EducationOpportunityDiversity />
+      <ThisIsOurJob />
       <Footer />
     </>
   )
