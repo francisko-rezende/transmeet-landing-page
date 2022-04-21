@@ -8,10 +8,15 @@ import MatchWithWhoMakesADiff from 'components/MatchWithWhoMakesADiff'
 import PartnerCompanies from 'components/PartnerCompanies'
 import RegistrationSteps from 'components/RegistrationSteps'
 import YourBridge from 'components/YourBridge'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Transmeet ⋅ Aplicativo</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <main style={{ overflowX: 'hidden' }}>
         <YourBridge />
