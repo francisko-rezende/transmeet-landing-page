@@ -43,17 +43,17 @@ const MobileMenu = () => {
             </Link>
           </S.MenuItem>
           <S.MenuItem>
-            <Link href="#" passHref>
+            <Link href="/" passHref>
               <S.StyledLink>Aplicativo</S.StyledLink>
             </Link>
           </S.MenuItem>
           <S.MenuItem>
-            <Link href="#" passHref>
+            <Link href="/about" passHref>
               <S.StyledLink>Sobre</S.StyledLink>
             </Link>
           </S.MenuItem>
           <S.MenuItem>
-            <Link href="#" passHref>
+            <Link href="/contact" passHref>
               <S.StyledLink>Contato</S.StyledLink>
             </Link>
           </S.MenuItem>
