@@ -77,7 +77,7 @@ export const DataList = styled.ol`
   /* min-width: 1238px; */
 
   @media (max-width: 610px) {
-    padding: 0 20px;
+    padding: 0 30px;
     padding-bottom: 40px;
   }
 `

@@ -24,13 +24,15 @@ export const ImgWrapper = styled.div`
   /* grid-column: 1/2; */
   @media (max-width: 811px) {
     grid-row: 1/2;
+    /* position: relative; */
     /* transform: unset; */
     /* background-color: red; */
 
-    transform: translate(-0%, -25%);
+    transform: translate(4%, -35%);
   }
 
   @media (max-width: 610px) {
+    transform: translate(0%, -25%);
     position: relative;
   }
 `

@@ -13,6 +13,7 @@ export const Wrapper = styled.section`
 
   @media (max-width: 610px) {
     grid-template-rows: 300px 1fr;
+    margin-top: 60px;
   }
 `
 export const TextWrapper = styled.div`
@@ -31,9 +32,13 @@ export const ImgWrapper = styled.div`
 
   @media (max-width: 811px) {
     transform: unset;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     margin-top: -15px;
+  }
+
+  @media (max-width: 610px) {
+    margin-top: unset;
   }
 `
 
