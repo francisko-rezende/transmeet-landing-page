@@ -18,8 +18,8 @@ const SimpleSearch = () => {
         <S.InputWrapper>
           <Image
             src="/images/search-icon.svg"
-            width={24}
-            height={24}
+            width={20}
+            height={20}
             alt="Lupa"
           />
           <S.HiddenLabel htmlFor="pesquisa">
@@ -81,7 +81,9 @@ const SimpleSearch = () => {
           alt="Card da empresa Raízen"
         />
       </S.CompaniesContainer>
-      <HollowButtonLink href="#" color="blue" label="ver mais empresas" />
+      <S.LinkWrapper>
+        <HollowButtonLink href="#" color="blue" label="ver mais empresas" />
+      </S.LinkWrapper>
     </S.Section>
   )
 }

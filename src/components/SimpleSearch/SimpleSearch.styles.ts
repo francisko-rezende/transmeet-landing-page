@@ -3,10 +3,14 @@ import styled, { css } from 'styled-components'
 export const Section = styled.section`
   display: grid;
   place-items: center;
-  width: calc(770px + 20px);
+  max-width: calc(770px + 20px);
   padding: 0 10px;
   margin: 0 auto;
   margin-top: 106px;
+
+  @media (max-width: 610px) {
+    margin-top: 50px;
+  }
 `
 
 export const Form = styled.form`
@@ -16,6 +20,9 @@ export const Form = styled.form`
   grid-template-columns: 3fr 1fr;
   gap: 30px;
   margin-top: 58px;
+  @media (max-width: 610px) {
+    gap: 10px;
+  }
 `
 
 export const HiddenLabel = styled.label`
@@ -33,10 +40,14 @@ export const InputWrapper = styled.div`
   display: flex;
   gap: 30px;
   width: 100%;
-  /* background-color: red; */
   height: 65px;
   border: 1px solid ${({ theme }) => theme.colors.typographyColors.gray};
   border-radius: 4px;
+
+  @media (max-width: 610px) {
+    gap: 15px;
+    padding-left: 15px;
+  }
 `
 
 export const Input = styled.input`
@@ -66,4 +77,14 @@ export const CompaniesContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+
+  @media (max-width: 610px) {
+    margin-top: 37px;
+  }
+`
+
+export const LinkWrapper = styled.div`
+  @media (max-width: 610px) {
+    margin-top: 47px;
+  }
 `
