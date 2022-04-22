@@ -9,8 +9,6 @@ export default {
   component: RegistrationSteps
 } as ComponentMeta<typeof RegistrationSteps>
 
-//const Template: ComponentStory<typeof RegistrationSteps> = (args) => <RegistrationSteps {...args} />
-
 const Template: ComponentStory<typeof RegistrationSteps> = () => (
   <RegistrationSteps />
 )

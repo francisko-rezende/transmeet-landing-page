@@ -12,7 +12,5 @@ describe('<RegistrationSteps />', () => {
         name: /veja como funciona o processo muito simples se candidatar/i
       })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })
