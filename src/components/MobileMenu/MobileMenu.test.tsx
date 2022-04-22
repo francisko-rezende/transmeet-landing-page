@@ -10,8 +10,6 @@ describe('<MobileMenu />', () => {
     expect(
       screen.getByRole('button', { name: /Abrir menu/i })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 
   test('that the menu opens and closes', () => {
@@ -28,7 +26,5 @@ describe('<MobileMenu />', () => {
     fireEvent.click(screen.getByRole('button', { name: /fechar menu/i }))
     expect(fullMenuElement.getAttribute('aria-hidden')).toBe('true')
     expect(fullMenuElement).toHaveStyle({ opacity: 0 })
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

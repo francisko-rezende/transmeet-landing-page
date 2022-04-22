@@ -9,8 +9,6 @@ export default {
   component: MobileMenu
 } as ComponentMeta<typeof MobileMenu>
 
-//const Template: ComponentStory<typeof MobileMenu> = (args) => <MobileMenu {...args} />
-
 const Template: ComponentStory<typeof MobileMenu> = () => <MobileMenu />
 
 export const Default = Template.bind({})

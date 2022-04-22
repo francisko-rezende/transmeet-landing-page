@@ -32,7 +32,6 @@ export const Buns = styled.div`
 `
 
 export const LogoWrapperLink = styled.a`
-  /* display: block; */
   margin-top: 110px;
   margin-bottom: 108px;
 `
@@ -74,10 +73,6 @@ export const StyledLink = styled.a`
 `
 
 export const OpenedMenu = styled.nav<FullMenuProps>`
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-
   ${({ isOpen, theme }) => css`
     opacity: ${isOpen ? 1 : 0};
     background: ${theme.colors.typographyColors.black};
@@ -108,7 +103,6 @@ export const OpenedMenu = styled.nav<FullMenuProps>`
     }
 
     ${MenuList} > :last-child {
-      /* border-bottom: 1px solid ${theme.colors.typographyColors.white}; */
       padding-top: 100px;
     }
 
@@ -128,12 +122,6 @@ export const OpenedMenu = styled.nav<FullMenuProps>`
         &:hover {
           &::after {
             content: unset;
-            /* position: absolute;
-            bottom: unset;
-            display: block;
-            height: 2px;
-            background: ${theme.colors.typographyColors.white};
-            animation: ${underline} 0.2s forwards; */
           }
         }
       `}
