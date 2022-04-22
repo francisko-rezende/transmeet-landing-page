@@ -73,7 +73,7 @@ export const DataList = styled.ol`
   padding: 0 40px;
   padding-bottom: 40px;
   /* max-width: 921px; */
-  width: fit-content;
+  max-width: fit-content;
   /* min-width: 1238px; */
 
   @media (max-width: 610px) {
