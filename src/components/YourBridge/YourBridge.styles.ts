@@ -1,7 +1,5 @@
 import styled, { css } from 'styled-components'
 
-// import pic01 from '../../../public/images/pic-01.webp'
-
 export const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -14,7 +12,6 @@ export const Wrapper = styled.section`
 
   @media (max-width: 610px) {
     grid-template-rows: 250px 1fr;
-    /* grid-template-columns: 346px; */
   }
 `
 
@@ -67,52 +64,15 @@ export const Paragraph = styled.p`
 
 export const ImgWrapper = styled.div`
   position: relative;
-  /* background-color: red; */
-  /* background: red; */
 
   @media (max-width: 811px) {
     grid-row: 1/2;
     display: flex;
     justify-content: center;
   }
-
-  @media (max-width: 610px) {
-    /* display: block;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; */
-    /* transform: translateX(-5.5%) translateY(-45%);
-    width: 386px;
-    height: 386px;
-    position: absolute; */
-    /* height: 1px; */
-  }
-
-  /* &::after {
-    content: '';
-    background-image: url('/images/pic-01.webp');
-    background-size: cover;
-    display: inline-block;
-    position: absolute;
-    width: 915px;
-    height: 915px;
-    left: 0;
-    top: 0px;
-    transform: translate(8%, -30%);
-  } */
-  /* position: absolute;
-  top: 0;
-  left: 50px; */
-  @media (max-width: 610px) {
-    /* display: flex;
-    justify-content: center; */
-  }
 `
 export const Img = styled.img`
   position: absolute;
-  /* display: block;
-  max-width: 100%;
-  max-height: 100%; */
   width: 915px;
   height: 915px;
   pointer-events: none;
@@ -122,17 +82,10 @@ export const Img = styled.img`
     transform: translateX(0%) translateY(-29%);
     width: 600px;
     height: 600px;
-    /* transform: unset; */
     position: relative;
   }
 
   @media (max-width: 610px) {
-    /* display: block;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; */
-    /* transform: translateX(-5.5%) translateY(-45%); */
-    /* transform: translateY(-30%); */
     top: -60px;
     width: 465px;
     height: 465px;

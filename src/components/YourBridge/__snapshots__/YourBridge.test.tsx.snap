@@ -119,14 +119,6 @@ exports[`<YourBridge /> should render the section with all its elements 1`] = `
   }
 }
 
-@media (max-width:610px) {
-
-}
-
-@media (max-width:610px) {
-
-}
-
 @media (max-width:811px) {
   .c7 {
     -webkit-transform: translateX(0%) translateY(-29%);
