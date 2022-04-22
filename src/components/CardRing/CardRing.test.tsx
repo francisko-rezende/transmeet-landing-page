@@ -8,7 +8,5 @@ describe('<CardRing />', () => {
     renderWithTheme(<CardRing stepNumber="1" ringType="blueRight" />)
 
     expect(screen.getByRole('heading', { name: /1/i })).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

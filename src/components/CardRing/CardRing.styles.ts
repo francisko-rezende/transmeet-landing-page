@@ -21,7 +21,6 @@ const ringTypes = {
 
 export const Wrapper = styled.div`
   position: relative;
-  /* margin-top: 22px; */
 `
 
 export const RingWrapper = styled.div<StyledRingWrapperProps>`

@@ -13,8 +13,6 @@ const Template: ComponentStory<typeof CardRing> = (args) => (
   <CardRing {...args} />
 )
 
-// const Template: ComponentStory<typeof CardRing> = () => <CardRing />
-
 export const First = Template.bind({})
 
 export const Second = Template.bind({})
@@ -34,6 +32,3 @@ Fourth.args = {
   ringType: 'blueTop',
   stepNumber: '4'
 }
-
-// export const Default = Template.bind({})
-// export const Default = Template.bind({})
