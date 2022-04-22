@@ -13,7 +13,5 @@ describe('<DataCard />', () => {
     )
 
     expect(screen.getByRole('listitem')).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

@@ -13,8 +13,6 @@ const Template: ComponentStory<typeof DataCard> = (args) => (
   <DataCard {...args} />
 )
 
-// const Template: ComponentStory<typeof DataCard> = () => <DataCard />
-
 export const First = Template.bind({})
 First.args = {
   percentage: '72',
