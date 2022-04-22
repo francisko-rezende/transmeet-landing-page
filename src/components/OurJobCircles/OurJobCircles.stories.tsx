@@ -13,6 +13,4 @@ const Template: ComponentStory<typeof OurJobCircles> = (args) => (
   <OurJobCircles {...args} />
 )
 
-// const Template: ComponentStory<typeof OurJobCircles> = () => <OurJobCircles />
-
 export const Default = Template.bind({})
