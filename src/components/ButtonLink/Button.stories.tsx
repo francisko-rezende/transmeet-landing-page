@@ -13,8 +13,6 @@ const Template: ComponentStory<typeof ButtonLink> = (args) => (
   <ButtonLink {...args} />
 )
 
-// const Template: ComponentStory<typeof Button> = () => <Button />
-
 export const Default = Template.bind({})
 Default.args = {
   children: 'Cadastrar'
