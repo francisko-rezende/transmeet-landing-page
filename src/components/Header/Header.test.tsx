@@ -8,7 +8,6 @@ describe('<Header />', () => {
     const { container } = renderWithTheme(<Header />)
 
     expect(screen.getByRole('banner')).toBeInTheDocument()
-    // expect(screen.getByRole('img', { name: /transmeet/i })).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
