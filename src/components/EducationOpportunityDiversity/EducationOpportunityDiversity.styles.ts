@@ -39,11 +39,14 @@ export const ImgWrapper = styled.div`
 
   @media (max-width: 610px) {
     position: relative;
-    transform: translate(8%, -165px);
+    /* transform: translate(8%, -165px); */
+    transform: translateY(3px);
     right: unset;
     bottom: unset;
-    height: 159px;
-    grid-row: 3/4;
+    /* height: 159px; */
+    /* grid-row: 3/4; */
+    /* background-color: red; */
+    place-self: end;
   }
 `
 
@@ -70,6 +73,7 @@ export const Paragraph = styled.p`
 
   @media (max-width: 610px) {
     font-size: 1.2rem;
+    margin-bottom: unset;
   }
 `
 
