@@ -7,6 +7,11 @@ export const Section = styled.section`
   padding: 66px;
   width: 100%;
   border-radius: 20px;
+
+  @media (max-width: 610px) {
+    margin-top: 70px;
+    padding: 33px;
+  }
 `
 
 export const SecondaryTitle = styled.h2`
@@ -16,10 +21,13 @@ export const SecondaryTitle = styled.h2`
     color: ${theme.colors.typographyColors.black};
     font-weight: ${theme.font.weight.bold};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 2rem;
+  }
 `
 
 export const PinkSpan = styled.span`
-  /* display: block; */
   color: ${({ theme }) => theme.colors.secondaryColor.secondary};
 `
 
@@ -29,6 +37,11 @@ export const Paragraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
 `
 
 export const SemiBold = styled.span`
@@ -40,12 +53,20 @@ export const SemiBold = styled.span`
 export const TextWrapper = styled.div`
   flex: 5.5;
   max-width: 470px;
+
+  @media (max-width: 610px) {
+    flex: 1;
+  }
 `
 
 export const ImgWrapper = styled.div`
   flex: 4.5;
   position: relative;
   left: 100px;
+
+  @media (max-width: 610px) {
+    display: none;
+  }
 `
 
 export const LinksWrapper = styled.div`
@@ -53,6 +74,11 @@ export const LinksWrapper = styled.div`
   align-items: center;
   gap: 30px;
   margin-top: 63px;
+
+  @media (max-width: 610px) {
+    margin-top: 30px;
+    gap: 15px;
+  }
 `
 export const LinkButton = styled.a`
   flex: 1;
@@ -71,6 +97,10 @@ export const LinkButton = styled.a`
     &:hover {
       background-color: ${theme.colors.secondaryColor.secondaryDark};
     }
+
+    @media (max-width: 610px) {
+      font-size: 1.4rem;
+    }
   `}
 `
 
@@ -80,6 +110,10 @@ export const LinkParagraph = styled.p`
   text-align: left;
   color: ${({ theme }) => theme.colors.typographyColors.gray};
   font-weight: ${({ theme }) => theme.font.weight.bold};
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const RegistrationLink = styled.a`
