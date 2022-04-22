@@ -19,7 +19,5 @@ describe('<RegistrationStepCard />', () => {
         /Pesquise uma ou busque uma empresa em nossa lista de parceiros/i
       )
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

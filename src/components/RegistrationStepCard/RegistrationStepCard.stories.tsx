@@ -13,8 +13,6 @@ const Template: ComponentStory<typeof RegistrationStepCard> = (args) => (
   <RegistrationStepCard {...args} />
 )
 
-// const Template: ComponentStory<typeof RegistrationStepCard> = () => <RegistrationStepCard />
-
 export const First = Template.bind({})
 
 export const Second = Template.bind({})
