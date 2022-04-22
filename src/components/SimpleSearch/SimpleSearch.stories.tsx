@@ -9,8 +9,6 @@ export default {
   component: SimpleSearch
 } as ComponentMeta<typeof SimpleSearch>
 
-//const Template: ComponentStory<typeof SimpleSearch> = (args) => <SimpleSearch {...args} />
-
 const Template: ComponentStory<typeof SimpleSearch> = () => <SimpleSearch />
 
 export const Default = Template.bind({})
