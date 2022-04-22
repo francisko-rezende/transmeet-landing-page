@@ -1,3 +1,4 @@
+import BeOurPartner from 'components/BeOurPartner'
 import DownloadNow from 'components/DownloadNow'
 import EducationOpportunityDiversity from 'components/EducationOpportunityDiversity'
 import Footer from 'components/Footer'
@@ -17,7 +18,8 @@ export default function Home() {
       <EducationOpportunityDiversity />
       <ThisIsOurJob />
       <SimpleSearch />
-      <DownloadNow />
+      <BeOurPartner />
+      <DownloadNow blackText="Conheça nosso app e" />
       <Footer />
     </>
   )

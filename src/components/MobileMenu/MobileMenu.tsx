@@ -38,12 +38,12 @@ const MobileMenu = () => {
             />
           </S.LogoWrapper>
           <S.MenuItem>
-            <Link href="#" passHref>
+            <Link href="/" passHref>
               <S.StyledLink>Home</S.StyledLink>
             </Link>
           </S.MenuItem>
           <S.MenuItem>
-            <Link href="/" passHref>
+            <Link href="/application" passHref>
               <S.StyledLink>Aplicativo</S.StyledLink>
             </Link>
           </S.MenuItem>

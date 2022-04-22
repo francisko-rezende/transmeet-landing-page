@@ -28,7 +28,7 @@ const Application = () => {
         <BenefitsForCompanies />
         <ManyPossibilities />
         <DataOnTransEducation />
-        <DownloadNow />
+        <DownloadNow blackText="Baixe agora o app e" />
       </main>
       <Footer />
     </>

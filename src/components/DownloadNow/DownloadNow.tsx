@@ -6,13 +6,17 @@ import Image from 'next/image'
 
 import * as S from './DownloadNow.styles'
 
-const DownloadNow = () => {
+type DownloadNowProps = {
+  blackText: string
+}
+
+const DownloadNow = ({ blackText }: DownloadNowProps) => {
   return (
     <MainContainer>
       <S.SectionWrapper>
         <S.BorderWrapper>
           <S.TitleWrapper>
-            <S.DownloadSpam>Baixe agora o app e</S.DownloadSpam>
+            <S.DownloadSpam>{blackText}</S.DownloadSpam>
             <S.BeAPartSpam>
               <span>faça parte desta transformação</span>
             </S.BeAPartSpam>

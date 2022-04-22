@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Section = styled.section`
   display: grid;
-  place-content: center;
+  place-items: center;
   width: calc(770px + 20px);
   padding: 0 10px;
   margin: 0 auto;
@@ -50,7 +50,7 @@ export const Input = styled.input`
 `
 
 export const Button = styled.button`
-  /* align-self: center; */
+  justify-self: center;
   width: 100%;
   border: none;
   border-radius: 24px;
