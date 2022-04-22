@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from 'components/Button'
+import ButtonLink from 'components/ButtonLink'
 import CloseMenuButton from 'components/CloseMenuButton'
 import HamburguerButton from 'components/HamburguerButton'
 import Image from 'next/image'
@@ -63,7 +63,7 @@ const MobileMenu = () => {
           </S.MenuItem>
           <S.MenuItem>
             <Link href="#" passHref>
-              <Button>Entrar/Registrar</Button>
+              <ButtonLink>Entrar/Registrar</ButtonLink>
             </Link>
           </S.MenuItem>
         </S.MenuList>

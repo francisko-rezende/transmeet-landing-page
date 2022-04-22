@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Button from 'components/Button'
+import ButtonLink from 'components/ButtonLink'
+import Link from 'next/link'
 
 import * as S from './AppLinks.styles'
 
@@ -10,7 +11,9 @@ const AppLinks = () => {
       <div>
         <S.Link href="#">Entre</S.Link>
       </div>
-      <Button>Cadastrar</Button>
+      <Link href="#" passHref>
+        <ButtonLink>Cadastrar</ButtonLink>
+      </Link>
     </S.Wrapper>
   )
 }

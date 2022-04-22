@@ -1,8 +1,9 @@
 import React from 'react'
 
-import Button from 'components/Button'
+import ButtonLink from 'components/ButtonLink'
 import MainContainer from 'components/MainContainer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import * as S from './BenefitsForCompanies.styles'
 
@@ -31,7 +32,9 @@ const BenefitsForCompanies = () => {
             de fazer.
           </S.Paragraph>
           <S.RegistrationLinkWrapper>
-            <Button>Registre-se</Button>
+            <Link href="#" passHref>
+              <ButtonLink>Registre-se</ButtonLink>
+            </Link>
             <S.CallToActionParagraph>
               Empresa, seja nosso parceiro também... <br></br>
               <span>Registre-se!</span>
