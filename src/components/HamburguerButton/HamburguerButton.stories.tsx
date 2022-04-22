@@ -13,8 +13,4 @@ const Template: ComponentStory<typeof HamburguerButton> = (args) => (
   <HamburguerButton {...args} />
 )
 
-// const Template: ComponentStory<typeof HamburguerButton> = () => (
-//   <HamburguerButton />
-// )
-
 export const Default = Template.bind({})
