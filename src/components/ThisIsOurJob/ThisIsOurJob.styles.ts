@@ -11,6 +11,10 @@ export const Section = styled.section`
   padding-bottom: 64px;
   display: grid;
   place-items: center;
+
+  @media (max-width: 610px) {
+    padding-top: 45px;
+  }
 `
 
 export const SecondaryTitle = styled.h2`
@@ -37,26 +41,13 @@ export const CirclesList = styled.ul`
   justify-content: center;
   gap: 96px;
   margin-top: 87px;
+
+  @media (max-width: 610px) {
+    margin-top: 44px;
+    gap: 40px;
+  }
 `
 
-export const Link = styled.a`
-  text-align: center;
-  margin-top: 67px;
-  text-decoration: none;
-  padding: 14px 28px;
-  border-radius: 24px;
-  font-size: 1.6rem;
-  transition: all 0.2s ease-in-out;
-  max-width: 370px;
-
-  ${({ theme }) => css`
-    color: ${theme.colors.secondaryColor.secondaryLight};
-    border: 3px solid ${theme.colors.secondaryColor.secondaryLight};
-    font-weight: ${theme.font.weight.bold};
-
-    &:hover {
-      color: ${theme.colors.typographyColors.black};
-      background-color: ${theme.colors.secondaryColor.secondaryLight};
-    }
-  `}
+export const LinkWrapper = styled.div`
+  margin-top: 60px;
 `

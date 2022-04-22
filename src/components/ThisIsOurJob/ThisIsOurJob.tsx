@@ -32,11 +32,13 @@ const ThisIsOurJob = () => {
             description="Oferecer oportunidades"
           />
         </S.CirclesList>
-        <HollowButtonLink
-          href="/about"
-          label="Conheça melhor a Transmeet"
-          color="pink"
-        />
+        <S.LinkWrapper>
+          <HollowButtonLink
+            href="/about"
+            label="Conheça melhor a Transmeet"
+            color="pink"
+          />
+        </S.LinkWrapper>
       </S.Section>
     </S.Bg>
   )
