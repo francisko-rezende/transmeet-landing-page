@@ -1,3 +1,4 @@
+import DownloadNow from 'components/DownloadNow'
 import EducationOpportunityDiversity from 'components/EducationOpportunityDiversity'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
@@ -16,6 +17,7 @@ export default function Home() {
       <EducationOpportunityDiversity />
       <ThisIsOurJob />
       <SimpleSearch />
+      <DownloadNow />
       <Footer />
     </>
   )

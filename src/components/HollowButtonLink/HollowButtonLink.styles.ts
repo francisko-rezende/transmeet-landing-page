@@ -9,7 +9,7 @@ const buttonVariants = {
     font-weight: ${theme.font.weight.bold};
 
     &:hover {
-      color: ${theme.colors.typographyColors.black};
+      color: ${theme.colors.typographyColors.white};
       background-color: ${theme.colors.primaryColor.primary};
     }
   `,

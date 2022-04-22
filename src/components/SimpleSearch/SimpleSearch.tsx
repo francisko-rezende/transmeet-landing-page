@@ -1,5 +1,6 @@
 import React from 'react'
 
+import HollowButtonLink from 'components/HollowButtonLink'
 import HomePageSecondaryTitle from 'components/HomePageSecondaryTitle'
 import Image from 'next/image'
 
@@ -14,7 +15,7 @@ const SimpleSearch = () => {
         titleColor="dark"
       />
       <S.Form>
-        <div>
+        <S.InputWrapper>
           <Image
             src="/images/search-icon.svg"
             width={24}
@@ -24,12 +25,63 @@ const SimpleSearch = () => {
           <S.HiddenLabel htmlFor="pesquisa">
             Pesquise por um termo ou empresa
           </S.HiddenLabel>
-          <input type="text" placeholder="Pesquise um termo ou empresa..." />
-          <button type="submit" onClick={(e) => e.preventDefault()}>
-            Pesquisar
-          </button>
-        </div>
+          <S.Input type="text" placeholder="Pesquise um termo ou empresa..." />
+        </S.InputWrapper>
+        <S.Button type="submit" onClick={(e) => e.preventDefault()}>
+          Pesquisar
+        </S.Button>
       </S.Form>
+      <S.CompaniesContainer>
+        <Image
+          src="/images/card-empresa-1.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Ioasys"
+        />
+        <Image
+          src="/images/card-empresa-2.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Santandar"
+        />
+        <Image
+          src="/images/card-empresa-3.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Pitágoras"
+        />
+        <Image
+          src="/images/card-empresa-4.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Amerocanas"
+        />
+        <Image
+          src="/images/card-empresa-5.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Havaianas"
+        />
+        <Image
+          src="/images/card-empresa-6.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Osklen"
+        />
+        <Image
+          src="/images/card-empresa-7.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Amazon"
+        />
+        <Image
+          src="/images/card-empresa-8.webp"
+          width={370}
+          height={105}
+          alt="Card da empresa Raízen"
+        />
+      </S.CompaniesContainer>
+      <HollowButtonLink href="#" color="blue" label="ver mais empresas" />
     </S.Section>
   )
 }
