@@ -14,6 +14,13 @@ const EducationOpportunityDiversity = () => {
           <S.PinkSpan>oportunidade,</S.PinkSpan>{' '}
           <S.GraySpan>diversidade!</S.GraySpan>
         </S.SecondaryTitle>
+        <S.Paragraph>
+          <S.SemiBoldText>
+            Movidos pelo seu crescimento pessoal e profissional,
+          </S.SemiBoldText>{' '}
+          a Transmeet possui o compromisso de ser a ponte entre você e uma
+          educação de qualidade!
+        </S.Paragraph>
         <S.ImgWrapper>
           <Image
             src="/images/home-pic-01.webp"
@@ -22,13 +29,6 @@ const EducationOpportunityDiversity = () => {
             alt="Um estudante fazendo anotações"
           />
         </S.ImgWrapper>
-        <S.Paragraph>
-          <S.SemiBoldText>
-            Movidos pelo seu crescimento pessoal e profissional,
-          </S.SemiBoldText>{' '}
-          a Transmeet possui o compromisso de ser a ponte entre você e uma
-          educação de qualidade!
-        </S.Paragraph>
       </S.Section>
     </MainContainer>
   )

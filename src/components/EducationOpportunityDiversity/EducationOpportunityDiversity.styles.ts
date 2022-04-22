@@ -6,6 +6,11 @@ export const Section = styled.section`
   grid-template-columns: repeat(2, 1fr);
   margin-top: 116px;
   gap: 30px;
+
+  @media (max-width: 610px) {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
 `
 
 export const SecondaryTitle = styled.h2`
@@ -20,6 +25,7 @@ export const SecondaryTitle = styled.h2`
   }
 
   @media (max-width: 610px) {
+    font-size: 3.7rem;
   }
 `
 export const ImgWrapper = styled.div`
@@ -29,10 +35,15 @@ export const ImgWrapper = styled.div`
 
   @media (max-width: 811px) {
     right: -245px;
-    /* position: relative; */
   }
 
   @media (max-width: 610px) {
+    position: relative;
+    transform: translate(8%, -165px);
+    right: unset;
+    bottom: unset;
+    height: 159px;
+    grid-row: 3/4;
   }
 `
 
@@ -56,6 +67,10 @@ export const Paragraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.typographyColors.gray};
   `}
+
+  @media (max-width: 610px) {
+    font-size: 1.2rem;
+  }
 `
 
 export const SemiBoldText = styled.span`
