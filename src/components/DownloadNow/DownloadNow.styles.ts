@@ -18,7 +18,6 @@ export const BorderWrapper = styled.div`
   justify-content: center;
   width: 770px;
   height: 191px;
-  /* background-color: red; */
 `
 
 export const TitleWrapper = styled.div`
@@ -58,7 +57,6 @@ export const BeAPartSpam = styled.span`
 
   ${({ theme }) => css`
     color: ${theme.colors.secondaryColor.secondary};
-    /* position: absolute; */
     bottom: 10px;
     background: ${theme.colors.typographyColors.white};
     font-weight: ${theme.font.weight.extraBold};
