@@ -81,7 +81,6 @@ export const EmailInfoParagraph = styled.p`
   `};
 
   @media (max-width: 610px) {
-    /* margin-top: 10px; */
     margin-top: unset;
     margin-bottom: 30px;
   }

@@ -22,15 +22,7 @@ const ContactForm = () => {
       />
       <S.TextAreaWrapper>
         <S.Label htmlFor="message">Sua mensagem</S.Label>
-        <S.TextArea
-          id="message"
-          name="mensagem"
-          // value={inputs.description}
-          // onChange={(e) => {
-          //   setInputs({ ...inputs, description: e.target.value })
-          // }}
-          rows={10}
-        ></S.TextArea>
+        <S.TextArea id="message" name="mensagem" rows={10}></S.TextArea>
       </S.TextAreaWrapper>
       <S.SubmitButton onClick={(e) => e.preventDefault()}>
         Enviar mensagem
