@@ -15,7 +15,7 @@ const DataOnTransEducation = () => {
         <S.Title>
           Dados rápidos sobre a educação de pessoas transgêneras
         </S.Title>
-        <S.SecondSpan>- Fonte: ANTRA / 2021 -</S.SecondSpan>
+        <S.SecondSpan>- Fonte: ANTRA & ABGLT -</S.SecondSpan>
         <S.DataList>
           <DataCard
             percentage="72"
@@ -24,8 +24,7 @@ e 56% o Fundamental"
           />
           <DataCard
             percentage="82"
-            explanation="Abandonaram os estudos ainda no
-ensino básico"
+            explanation="Número estimado dos que abandonaram os estudos ainda no ensino básico"
           />
           <DataCard
             percentage="0,3"

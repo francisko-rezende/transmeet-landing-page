@@ -80,14 +80,16 @@ const AboutPageContent = () => {
             encontraríamos em uma pesquisa rápida na internet, principalmente
             pelo fato de que dados muito precisos sobre o público trans são
             quase escassos, existindo apenas com a ajuda de associações como a
-            ANTRA (Associação Nacional de Travestis e Transexuais) que realiza
-            divulgações desses dados mais específicos. Dentre alguns dos dados
-            encontrados pelo nosso time, o que mais se destacou foi este:
+            ANTRA (Associação Nacional de Travestis e Transexuais) e a
+            Secretaria de Educação da ABGLT (Associação Brasileira de Lésbicas,
+            Gays, Bissexuais, Travestis e Transexuais) que realizam divulgações
+            desses dados mais específicos. Dentre alguns dos dados encontrados
+            pelo nosso time, o que mais se destacou foi este:
           </S.Paragraph>
         </S.SecondBlock>
         <S.SecondDefinition>
-          82% das pessoas transexuais brasileiras abandonaram seus estudos ainda
-          na educação básica.
+          Estima-se que 82% das pessoas transexuais brasileiras abandonaram seus
+          estudos ainda na educação básica.
         </S.SecondDefinition>
         <S.ThirdBlock>
           <S.Paragraph>
