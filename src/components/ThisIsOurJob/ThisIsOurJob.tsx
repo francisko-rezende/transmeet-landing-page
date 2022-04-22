@@ -13,6 +13,7 @@ const ThisIsOurJob = () => {
         <HomePageSecondaryTitle
           span="Nós somos a Transmeet"
           title="Este é o nosso trabalho"
+          titleColor="light"
         />
         <S.CirclesList>
           <OurJobCircles
@@ -36,9 +37,6 @@ const ThisIsOurJob = () => {
           label="Conheça melhor a Transmeet"
           color="pink"
         />
-        {/* <Link href="/about" passHref>
-          <S.Link>Conheça melhor a Transmeet</S.Link>
-        </Link> */}
       </S.Section>
     </S.Bg>
   )
