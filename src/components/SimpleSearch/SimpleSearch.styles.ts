@@ -84,6 +84,8 @@ export const CompaniesContainer = styled.div`
 `
 
 export const LinkWrapper = styled.div`
+  margin-top: 68px;
+
   @media (max-width: 610px) {
     margin-top: 47px;
   }
