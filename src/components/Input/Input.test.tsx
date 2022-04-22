@@ -8,7 +8,5 @@ describe('<Input />', () => {
     renderWithTheme(<Input label="Email" />)
 
     expect(screen.getByText('Email')).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

@@ -11,7 +11,6 @@ export type InputProps = {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void
   required?: boolean | undefined
   error?: string
-  // setError?: React.Dispatch<React.SetStateAction<string>>
   placeholder?: string
 }
 
@@ -23,7 +22,6 @@ const Input = ({
   onChange,
   name,
   error,
-  // setError,
   ...props
 }: InputProps) => {
   return (

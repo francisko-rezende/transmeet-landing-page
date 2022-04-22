@@ -29,17 +29,9 @@ export const Label = styled.label`
 `
 
 export const Input = styled.input`
-  /* border-width: 1px;
-  border-color: ${({ theme }) => theme.colors.typographyColors.gray};
-  border-style: solid;
-  border-radius: 4px; */
   border: none;
   padding: 14px 16px;
-  /* height: 56px; */
   width: 100%;
-  /* width: 470px; */
-  /* margin-left: 15px; */
-  /* max-width: 470px; */
   line-height: 1.4;
 
   &:focus {
