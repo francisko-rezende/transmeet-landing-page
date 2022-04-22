@@ -9,8 +9,6 @@ export default {
   component: DownloadNowGradientBorder
 } as ComponentMeta<typeof DownloadNowGradientBorder>
 
-//const Template: ComponentStory<typeof DownloadNowGradientBorder> = (args) => <DownloadNowGradientBorder {...args} />
-
 const Template: ComponentStory<typeof DownloadNowGradientBorder> = () => (
   <DownloadNowGradientBorder />
 )
