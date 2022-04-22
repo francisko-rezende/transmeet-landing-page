@@ -81,12 +81,6 @@ const GlobalStyles = createGlobalStyle`
     -mox-osx-font-smoothing: grayscale;
   }
 
-
-
-  /* html, body, #__next {
-    height: 100%;
-  } */
-
   html {
   overflow-x: hidden
   }
