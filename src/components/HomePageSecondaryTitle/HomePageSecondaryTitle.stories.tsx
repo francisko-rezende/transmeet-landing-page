@@ -13,8 +13,4 @@ const Template: ComponentStory<typeof HomePageSecondaryTitle> = (args) => (
   <HomePageSecondaryTitle {...args} />
 )
 
-// const Template: ComponentStory<typeof HomePageSecondaryTitle> = () => (
-//   <HomePageSecondaryTitle />
-// )
-
 export const Default = Template.bind({})

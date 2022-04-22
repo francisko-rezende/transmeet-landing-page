@@ -5,7 +5,7 @@ import * as S from './HomePageSecondaryTitle.styles'
 export type HomePageSecondaryTitleProps = {
   title: string
   span: string
-  titleColor: 'light' | 'dark'
+  titleColor?: 'light' | 'dark'
 }
 
 const HomePageSecondaryTitle = ({
