@@ -9,8 +9,8 @@ export default {
   component: DownloadNow
 } as ComponentMeta<typeof DownloadNow>
 
-//const Template: ComponentStory<typeof DownloadNow> = (args) => <DownloadNow {...args} />
-
-const Template: ComponentStory<typeof DownloadNow> = () => <DownloadNow />
+const Template: ComponentStory<typeof DownloadNow> = (args) => (
+  <DownloadNow {...args} />
+)
 
 export const Default = Template.bind({})

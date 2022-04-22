@@ -13,8 +13,4 @@ const Template: ComponentStory<typeof HollowButtonLink> = (args) => (
   <HollowButtonLink {...args} />
 )
 
-// const Template: ComponentStory<typeof HollowButtonLink> = () => (
-//   <HollowButtonLink />
-// )
-
 export const Default = Template.bind({})
