@@ -12,7 +12,5 @@ describe('<ManyPossibilities />', () => {
         name: /muitas possibilidades em um só lugar\.\.\./i
       })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

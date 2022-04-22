@@ -9,8 +9,6 @@ export default {
   component: ManyPossibilities
 } as ComponentMeta<typeof ManyPossibilities>
 
-//const Template: ComponentStory<typeof ManyPossibilities> = (args) => <ManyPossibilities {...args} />
-
 const Template: ComponentStory<typeof ManyPossibilities> = () => (
   <ManyPossibilities />
 )
