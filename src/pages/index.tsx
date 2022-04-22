@@ -15,11 +15,13 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
-      <EducationOpportunityDiversity />
-      <ThisIsOurJob />
-      <SimpleSearch />
-      <BeOurPartner />
-      <DownloadNow blackText="Conheça nosso app e" />
+      <main style={{ overflowX: 'hidden' }}>
+        <EducationOpportunityDiversity />
+        <ThisIsOurJob />
+        <SimpleSearch />
+        <BeOurPartner />
+        <DownloadNow blackText="Conheça nosso app e" />
+      </main>
       <Footer />
     </>
   )
