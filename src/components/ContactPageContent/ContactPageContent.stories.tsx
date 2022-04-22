@@ -9,8 +9,6 @@ export default {
   component: ContactPageContent
 } as ComponentMeta<typeof ContactPageContent>
 
-//const Template: ComponentStory<typeof ContactPageContent> = (args) => <ContactPageContent {...args} />
-
 const Template: ComponentStory<typeof ContactPageContent> = () => (
   <ContactPageContent />
 )

@@ -10,7 +10,5 @@ describe('<ContactPageContent />', () => {
     expect(
       screen.getByRole('heading', { name: /contato/i })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })
