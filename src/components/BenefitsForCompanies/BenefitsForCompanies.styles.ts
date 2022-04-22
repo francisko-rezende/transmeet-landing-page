@@ -21,13 +21,9 @@ export const Wrapper = styled.section`
 export const ImgWrapper = styled.div`
   transform: translate(-18%, -9%);
   position: absolute;
-  /* grid-column: 1/2; */
+
   @media (max-width: 811px) {
     grid-row: 1/2;
-    /* position: relative; */
-    /* transform: unset; */
-    /* background-color: red; */
-
     transform: translate(4%, -35%);
   }
 
