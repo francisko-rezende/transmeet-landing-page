@@ -39,13 +39,9 @@ export const ImgWrapper = styled.div`
 
   @media (max-width: 610px) {
     position: relative;
-    /* transform: translate(8%, -165px); */
     transform: translateY(3px);
     right: unset;
     bottom: unset;
-    /* height: 159px; */
-    /* grid-row: 3/4; */
-    /* background-color: red; */
     place-self: end;
   }
 `

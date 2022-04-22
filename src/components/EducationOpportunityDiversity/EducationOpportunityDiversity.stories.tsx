@@ -9,8 +9,6 @@ export default {
   component: EducationOpportunityDiversity
 } as ComponentMeta<typeof EducationOpportunityDiversity>
 
-//const Template: ComponentStory<typeof EducationOpportunityDiversity> = (args) => <EducationOpportunityDiversity {...args} />
-
 const Template: ComponentStory<typeof EducationOpportunityDiversity> = () => (
   <EducationOpportunityDiversity />
 )
