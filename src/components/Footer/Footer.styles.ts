@@ -62,9 +62,6 @@ export const ParagraphForm = styled.p`
     opacity: 0.8;
   `}
 
-  @media (max-width: 811px) {
-    /* font-size: 3.2rem; */
-  }
   @media (max-width: 610px) {
     font-size: 1.2rem;
     line-height: 1.5;
