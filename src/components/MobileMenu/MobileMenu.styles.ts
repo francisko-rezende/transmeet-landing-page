@@ -22,7 +22,7 @@ export const Wrapper = styled.menu`
   justify-items: end;
   padding: 16px 0;
 `
-export const LogoWrapperMenuClosed = styled.div`
+export const LogoWrapperMenuClosedLink = styled.a`
   grid-column: 2/3;
   place-self: center;
 `
@@ -31,7 +31,8 @@ export const Buns = styled.div`
   grid-column: 3/4;
 `
 
-export const LogoWrapper = styled.div`
+export const LogoWrapperLink = styled.a`
+  /* display: block; */
   margin-top: 110px;
   margin-bottom: 108px;
 `

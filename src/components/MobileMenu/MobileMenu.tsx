@@ -13,14 +13,16 @@ const MobileMenu = () => {
 
   return (
     <S.Wrapper>
-      <S.LogoWrapperMenuClosed>
-        <Image
-          src="/images/logo-color.webp"
-          width={117}
-          height={26}
-          alt="transmeet"
-        />
-      </S.LogoWrapperMenuClosed>
+      <Link href="/" passHref>
+        <S.LogoWrapperMenuClosedLink>
+          <Image
+            src="/images/logo-color.webp"
+            width={117}
+            height={26}
+            alt="transmeet"
+          />
+        </S.LogoWrapperMenuClosedLink>
+      </Link>
       <S.Buns>
         <HamburguerButton onClick={() => setIsOpen(true)} />
       </S.Buns>
@@ -29,14 +31,16 @@ const MobileMenu = () => {
         <CloseMenuButton onClick={() => setIsOpen(false)} />
 
         <S.MenuList>
-          <S.LogoWrapper>
-            <Image
-              src="/images/logo-color.webp"
-              width={196}
-              height={43}
-              alt="transmeet"
-            />
-          </S.LogoWrapper>
+          <Link href="/" passHref>
+            <S.LogoWrapperLink>
+              <Image
+                src="/images/logo-color.webp"
+                width={196}
+                height={43}
+                alt="transmeet"
+              />
+            </S.LogoWrapperLink>
+          </Link>
           <S.MenuItem>
             <Link href="/" passHref>
               <S.StyledLink>Home</S.StyledLink>
