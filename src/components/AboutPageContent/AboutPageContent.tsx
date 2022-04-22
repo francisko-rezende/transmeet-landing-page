@@ -26,7 +26,7 @@ const AboutPageContent = () => {
           </S.Abstract>
         </S.AbstractWrapper>
         <S.DownloadLink
-          href="/files/test.pdf"
+          href="https://drive.google.com/file/d/18IvwRcveQVG53JzfOn5SZBiN4kymH4xi/view"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -138,7 +138,7 @@ const AboutPageContent = () => {
             Lembrando que caso você queira saber detalhes sobre o nosso projeto,
             é só baixar nosso{' '}
             <S.ReportLink
-              href="/files/test.pdf"
+              href="https://drive.google.com/file/d/18IvwRcveQVG53JzfOn5SZBiN4kymH4xi/view"
               target="_blank"
               rel="noopener noreferrer"
             >
