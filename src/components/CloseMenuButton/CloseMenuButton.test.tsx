@@ -9,7 +9,5 @@ describe('<CloseMenuButton />', () => {
     expect(
       screen.getByRole('button', { name: /fechar menu/i })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

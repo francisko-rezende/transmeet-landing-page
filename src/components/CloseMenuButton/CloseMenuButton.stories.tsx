@@ -13,6 +13,4 @@ const Template: ComponentStory<typeof CloseMenuButton> = (args) => (
   <CloseMenuButton {...args} />
 )
 
-// const Template: ComponentStory<typeof CloseMenuButton> = () => <CloseMenuButton />
-
 export const Default = Template.bind({})
