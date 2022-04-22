@@ -12,7 +12,5 @@ describe('<DataOnTransEducation />', () => {
         name: /dados rápidos sobre a educação de pessoas transgêneras/i
       })
     ).toBeInTheDocument()
-
-    // expect(container.firstChild).toMatchSnapshot()
   })
 })

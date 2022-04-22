@@ -9,8 +9,6 @@ export default {
   component: DataOnTransEducation
 } as ComponentMeta<typeof DataOnTransEducation>
 
-//const Template: ComponentStory<typeof DataOnTransEducation> = (args) => <DataOnTransEducation {...args} />
-
 const Template: ComponentStory<typeof DataOnTransEducation> = () => (
   <DataOnTransEducation />
 )
