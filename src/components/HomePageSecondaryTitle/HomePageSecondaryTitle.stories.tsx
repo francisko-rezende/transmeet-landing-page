@@ -9,10 +9,12 @@ export default {
   component: HomePageSecondaryTitle
 } as ComponentMeta<typeof HomePageSecondaryTitle>
 
-//const Template: ComponentStory<typeof HomePageSecondaryTitle> = (args) => <HomePageSecondaryTitle {...args} />
-
-const Template: ComponentStory<typeof HomePageSecondaryTitle> = () => (
-  <HomePageSecondaryTitle />
+const Template: ComponentStory<typeof HomePageSecondaryTitle> = (args) => (
+  <HomePageSecondaryTitle {...args} />
 )
+
+// const Template: ComponentStory<typeof HomePageSecondaryTitle> = () => (
+//   <HomePageSecondaryTitle />
+// )
 
 export const Default = Template.bind({})
