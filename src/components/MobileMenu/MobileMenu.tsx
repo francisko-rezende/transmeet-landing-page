@@ -62,7 +62,7 @@ const MobileMenu = () => {
             </Link>
           </S.MenuItem>
           <S.MenuItem>
-            <Link href="#" passHref>
+            <Link href="https://transmeet-web.vercel.app/" passHref>
               <ButtonLink>Entrar/Registrar</ButtonLink>
             </Link>
           </S.MenuItem>

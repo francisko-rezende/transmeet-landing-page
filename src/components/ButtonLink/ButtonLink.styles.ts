@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 export const ButtonLink = styled.a`
   padding: 1.4rem 4.4rem;
   border-radius: 24px;
+  text-decoration: none;
 
   ${({ theme }) => css`
     background-color: ${theme.colors.secondaryColor.secondary};

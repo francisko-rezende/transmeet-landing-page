@@ -32,12 +32,14 @@ const BenefitsForCompanies = () => {
             de fazer.
           </S.Paragraph>
           <S.RegistrationLinkWrapper>
-            <Link href="#" passHref>
+            <Link href="https://transmeet-web.vercel.app/registro" passHref>
               <ButtonLink>Registre-se</ButtonLink>
             </Link>
             <S.CallToActionParagraph>
               Empresa, seja nosso parceiro também... <br></br>
-              <span>Registre-se!</span>
+              <Link href="https://transmeet-web.vercel.app/registro">
+                <a>Registre-se!</a>
+              </Link>
             </S.CallToActionParagraph>
           </S.RegistrationLinkWrapper>
         </S.TextWrapper>

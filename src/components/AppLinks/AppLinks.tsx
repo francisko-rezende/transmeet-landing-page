@@ -9,9 +9,9 @@ const AppLinks = () => {
   return (
     <S.Wrapper>
       <div>
-        <S.Link href="#">Entre</S.Link>
+        <S.Link href="https://transmeet-web.vercel.app/">Entre</S.Link>
       </div>
-      <Link href="#" passHref>
+      <Link href="https://transmeet-web.vercel.app/registro" passHref>
         <ButtonLink>Cadastrar</ButtonLink>
       </Link>
     </S.Wrapper>

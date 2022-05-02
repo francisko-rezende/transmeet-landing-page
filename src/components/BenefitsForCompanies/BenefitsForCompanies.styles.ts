@@ -125,11 +125,16 @@ export const CallToActionParagraph = styled.p`
     color: ${theme.colors.typographyColors.black};
     font-weight: ${theme.font.weight.bold};
 
-    & > span {
+    & a {
+      text-decoration: none;
       color: ${theme.colors.secondaryColor.secondary};
       display: block;
       text-align: center;
       margin-top: 1rem;
+    }
+
+    & a:hover {
+      color: ${theme.colors.secondaryColor.secondaryDark};
     }
   `}
 `

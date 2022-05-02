@@ -25,7 +25,7 @@ const BeOurPartner = () => {
             </Link>
             <S.LinkParagraph>
               Tire suas dúvidas conosco ou{' '}
-              <Link href="#" passHref>
+              <Link href="https://transmeet-web.vercel.app/registro" passHref>
                 <S.RegistrationLink>registre-se já!</S.RegistrationLink>
               </Link>
             </S.LinkParagraph>
